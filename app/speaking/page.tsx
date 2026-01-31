@@ -246,7 +246,7 @@ export default function SpeakingPage() {
           {PART_DESCRIPTIONS.map(({ part, title, description, icon: Icon, tip }) => (
             <Card
               key={part}
-              className="cursor-pointer hover:border-primary transition-colors"
+              className="cursor-pointer hover:shadow-md hover:border-primary/30 transition-all duration-200"
               onClick={() => startPractice(part)}
             >
               <CardHeader>

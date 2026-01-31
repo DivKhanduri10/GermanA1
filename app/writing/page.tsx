@@ -162,15 +162,32 @@ export default function WritingPage() {
 
           <TabsContent value={activeTab} className="mt-4">
             {loading ? (
-              <div className="flex items-center justify-center py-12">
-                <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
+              <div className="grid gap-4 md:grid-cols-2">
+                {Array.from({ length: 4 }).map((_, i) => (
+                  <Card key={i}>
+                    <CardHeader>
+                      <div className="flex items-center justify-between">
+                        <div className="h-5 w-20 bg-muted animate-pulse rounded" />
+                        <div className="h-3 w-16 bg-muted animate-pulse rounded" />
+                      </div>
+                      <div className="h-5 w-48 bg-muted animate-pulse rounded mt-2" />
+                    </CardHeader>
+                    <CardContent>
+                      <div className="h-3 w-full bg-muted animate-pulse rounded mb-1" />
+                      <div className="h-3 w-3/4 bg-muted animate-pulse rounded" />
+                    </CardContent>
+                  </Card>
+                ))}
               </div>
             ) : prompts.length === 0 ? (
               <Card>
                 <CardContent className="py-12 text-center">
-                  <PenLine className="mx-auto h-12 w-12 text-muted-foreground mb-4" />
-                  <p className="text-muted-foreground">
-                    No writing prompts available yet. Run the seed script to add content.
+                  <div className="rounded-full bg-muted p-4 w-fit mx-auto mb-4">
+                    <PenLine className="h-8 w-8 text-muted-foreground" />
+                  </div>
+                  <p className="font-medium mb-1">No writing prompts yet</p>
+                  <p className="text-sm text-muted-foreground">
+                    Run the seed script to add writing prompts.
                   </p>
                 </CardContent>
               </Card>
@@ -179,7 +196,7 @@ export default function WritingPage() {
                 {prompts.map((prompt) => (
                   <Card
                     key={prompt.id}
-                    className="cursor-pointer hover:border-primary transition-colors"
+                    className="cursor-pointer hover:shadow-md hover:border-primary/30 transition-all duration-200"
                     onClick={() => handleSelectPrompt(prompt)}
                   >
                     <CardHeader>

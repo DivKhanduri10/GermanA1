@@ -105,28 +105,44 @@ export default function ReadingPage() {
         </div>
 
         {loading ? (
-          <p className="text-muted-foreground">Loading exercises...</p>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {Array.from({ length: 3 }).map((_, i) => (
+              <Card key={i}>
+                <CardHeader>
+                  <div className="h-5 w-24 bg-muted animate-pulse rounded mb-2" />
+                  <div className="h-5 w-36 bg-muted animate-pulse rounded" />
+                  <div className="h-3 w-20 bg-muted animate-pulse rounded mt-1" />
+                </CardHeader>
+              </Card>
+            ))}
+          </div>
         ) : sets.length === 0 ? (
           <Card>
-            <CardContent className="pt-6 text-center">
-              <FileText className="h-12 w-12 mx-auto text-muted-foreground mb-4" />
-              <p className="text-muted-foreground">
-                No reading exercises available yet. Seed the database to get started.
+            <CardContent className="py-12 text-center">
+              <div className="rounded-full bg-muted p-4 w-fit mx-auto mb-4">
+                <FileText className="h-8 w-8 text-muted-foreground" />
+              </div>
+              <p className="font-medium mb-1">No reading exercises yet</p>
+              <p className="text-sm text-muted-foreground">
+                Seed the database to get started with reading comprehension practice.
               </p>
             </CardContent>
           </Card>
         ) : (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {sets.map((set) => (
-              <Card key={set.setId} className="cursor-pointer hover:bg-accent/50 transition-colors" onClick={() => startSet(set)}>
+              <Card key={set.setId} className="cursor-pointer hover:shadow-md hover:border-primary/30 transition-all duration-200" onClick={() => startSet(set)}>
                 <CardHeader>
                   <Badge variant="outline" className="w-fit mb-2">
                     {partLabels[set.partNumber] || `Part ${set.partNumber}`}
                   </Badge>
                   <CardTitle className="text-base">Exercise Set {set.setId}</CardTitle>
                   <CardDescription>
-                    {set.questions.length} questions
+                    {set.questions.length} question{set.questions.length !== 1 ? "s" : ""}
                   </CardDescription>
+                  <p className="text-xs text-muted-foreground mt-2 line-clamp-2">
+                    {set.textContent.substring(0, 100)}...
+                  </p>
                 </CardHeader>
               </Card>
             ))}

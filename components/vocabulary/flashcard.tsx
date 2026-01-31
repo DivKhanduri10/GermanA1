@@ -30,7 +30,7 @@ export function Flashcard({ word, mode, showExample }: FlashcardProps) {
 
   return (
     <div
-      className="perspective-1000 w-full max-w-md mx-auto cursor-pointer"
+      className="perspective-1000 w-full max-w-md mx-auto cursor-pointer select-none"
       onClick={() => setFlipped(!flipped)}
       onKeyDown={(e) => {
         if (e.key === " " || e.key === "Enter") {
@@ -44,7 +44,7 @@ export function Flashcard({ word, mode, showExample }: FlashcardProps) {
     >
       <div
         className={cn(
-          "relative w-full h-64 transition-transform duration-500 transform-style-3d",
+          "relative w-full h-72 transition-transform duration-500 transform-style-3d",
           flipped && "rotate-y-180"
         )}
         style={{
@@ -55,34 +55,38 @@ export function Flashcard({ word, mode, showExample }: FlashcardProps) {
       >
         {/* Front */}
         <div
-          className="absolute inset-0 flex flex-col items-center justify-center rounded-xl border bg-card p-6 shadow-sm"
+          className="absolute inset-0 flex flex-col items-center justify-center rounded-xl border-2 bg-card p-6 shadow-sm hover:shadow-md transition-shadow"
           style={{ backfaceVisibility: "hidden" }}
         >
-          <p className="text-sm text-muted-foreground mb-2">
-            {mode === "de-en" ? "German" : "English"}
-          </p>
+          <div className="absolute top-4 left-4">
+            <span className="text-xs font-medium text-muted-foreground bg-muted px-2 py-1 rounded-full">
+              {mode === "de-en" ? "Deutsch" : "English"}
+            </span>
+          </div>
           <p className="text-3xl font-bold text-center">{front}</p>
           {mode === "de-en" && word.article && (
-            <p className="text-sm text-muted-foreground mt-2">
-              ({word.article})
+            <p className="text-base text-primary/70 mt-2 font-medium">
+              {word.article}
             </p>
           )}
-          <p className="text-xs text-muted-foreground mt-4">
-            Click or press Space to flip
+          <p className="text-xs text-muted-foreground mt-6 absolute bottom-4">
+            Tap to flip
           </p>
         </div>
 
         {/* Back */}
         <div
-          className="absolute inset-0 flex flex-col items-center justify-center rounded-xl border bg-card p-6 shadow-sm"
+          className="absolute inset-0 flex flex-col items-center justify-center rounded-xl border-2 border-primary/20 bg-gradient-to-b from-card to-primary/5 p-6 shadow-sm"
           style={{
             backfaceVisibility: "hidden",
             transform: "rotateY(180deg)",
           }}
         >
-          <p className="text-sm text-muted-foreground mb-2">
-            {mode === "de-en" ? "English" : "German"}
-          </p>
+          <div className="absolute top-4 left-4">
+            <span className="text-xs font-medium text-primary bg-primary/10 px-2 py-1 rounded-full">
+              {mode === "de-en" ? "English" : "Deutsch"}
+            </span>
+          </div>
           <p className="text-3xl font-bold text-center">
             {back} {backExtra}
           </p>
@@ -90,12 +94,12 @@ export function Flashcard({ word, mode, showExample }: FlashcardProps) {
             <p className="text-sm text-muted-foreground mt-2">{pluralText}</p>
           )}
           {showExample && word.exampleSentence && (
-            <p className="text-sm text-muted-foreground mt-4 italic text-center">
+            <p className="text-sm text-muted-foreground mt-4 italic text-center max-w-xs">
               &quot;{word.exampleSentence}&quot;
             </p>
           )}
-          <p className="text-xs text-muted-foreground mt-4">
-            Click or press Space to flip back
+          <p className="text-xs text-muted-foreground mt-6 absolute bottom-4">
+            Tap to flip back
           </p>
         </div>
       </div>
@@ -103,11 +107,15 @@ export function Flashcard({ word, mode, showExample }: FlashcardProps) {
   );
 }
 
-// Re-export for convenience
 export function FlashcardSkeleton() {
   return (
     <div className="w-full max-w-md mx-auto">
-      <div className="h-64 rounded-xl border bg-card animate-pulse" />
+      <div className="h-72 rounded-xl border-2 bg-card animate-pulse flex items-center justify-center">
+        <div className="space-y-3 flex flex-col items-center">
+          <div className="h-8 w-32 bg-muted rounded" />
+          <div className="h-4 w-16 bg-muted rounded" />
+        </div>
+      </div>
     </div>
   );
 }

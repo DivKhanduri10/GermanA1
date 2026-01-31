@@ -44,7 +44,23 @@ export default function VocabularyPage() {
       <div className="space-y-6">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Vocabulary</h1>
-          <p className="text-muted-foreground mt-1">Loading...</p>
+          <p className="text-muted-foreground mt-1">
+            Learn 650 essential German words for the Goethe A1 exam
+          </p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <Card key={i}>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <div className="h-4 w-24 bg-muted animate-pulse rounded" />
+                <div className="h-4 w-4 bg-muted animate-pulse rounded-full" />
+              </CardHeader>
+              <CardContent>
+                <div className="h-7 w-16 bg-muted animate-pulse rounded mb-1" />
+                <div className="h-3 w-20 bg-muted animate-pulse rounded" />
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
     );
@@ -61,32 +77,41 @@ export default function VocabularyPage() {
 
       {/* Quick Stats */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <Card>
+        <Card className="border-blue-200 dark:border-blue-900/50">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Total Words</CardTitle>
-            <BookOpen className="h-4 w-4 text-muted-foreground" />
+            <div className="rounded-full p-1.5 bg-blue-100 dark:bg-blue-950">
+              <BookOpen className="h-3.5 w-3.5 text-blue-600 dark:text-blue-400" />
+            </div>
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">
-              {stats?.mastered ?? 0} / {stats?.totalWords ?? 650}
+              {stats?.mastered ?? 0}{" "}
+              <span className="text-sm font-normal text-muted-foreground">
+                / {stats?.totalWords ?? 650}
+              </span>
             </div>
             <p className="text-xs text-muted-foreground">mastered</p>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="border-purple-200 dark:border-purple-900/50">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Learning</CardTitle>
-            <Brain className="h-4 w-4 text-muted-foreground" />
+            <div className="rounded-full p-1.5 bg-purple-100 dark:bg-purple-950">
+              <Brain className="h-3.5 w-3.5 text-purple-600 dark:text-purple-400" />
+            </div>
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">{stats?.learning ?? 0}</div>
             <p className="text-xs text-muted-foreground">in progress</p>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="border-orange-200 dark:border-orange-900/50">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Due for Review</CardTitle>
-            <RotateCcw className="h-4 w-4 text-muted-foreground" />
+            <div className="rounded-full p-1.5 bg-orange-100 dark:bg-orange-950">
+              <RotateCcw className="h-3.5 w-3.5 text-orange-600 dark:text-orange-400" />
+            </div>
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">
