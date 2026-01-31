@@ -41,8 +41,31 @@ export default function GrammarPage() {
   if (loading) {
     return (
       <div className="space-y-6">
-        <h1 className="text-3xl font-bold tracking-tight">Grammar</h1>
-        <p className="text-muted-foreground">Loading...</p>
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight">Grammar</h1>
+          <p className="text-muted-foreground mt-1">
+            Master 14 core A1 grammar topics with interactive exercises
+          </p>
+        </div>
+        <Card>
+          <CardContent className="pt-6">
+            <div className="h-4 w-48 bg-muted animate-pulse rounded mb-2" />
+            <div className="h-2 w-full bg-muted animate-pulse rounded" />
+          </CardContent>
+        </Card>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <Card key={i} className="flex flex-col">
+              <CardHeader className="pb-3">
+                <div className="h-5 w-40 bg-muted animate-pulse rounded" />
+                <div className="h-3 w-full bg-muted animate-pulse rounded mt-2" />
+              </CardHeader>
+              <CardContent className="mt-auto">
+                <div className="h-8 w-full bg-muted animate-pulse rounded" />
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     );
   }
@@ -90,7 +113,7 @@ export default function GrammarPage() {
               : null;
 
           return (
-            <Card key={topic.id} className="flex flex-col">
+            <Card key={topic.id} className="flex flex-col hover:shadow-md hover:border-primary/30 transition-all duration-200">
               <CardHeader className="pb-3">
                 <div className="flex items-start justify-between">
                   <div className="flex items-center gap-2">

@@ -14,12 +14,14 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import {
+  ArrowLeft,
   ChevronLeft,
   ChevronRight,
   RotateCcw,
   Eye,
   EyeOff,
 } from "lucide-react";
+import Link from "next/link";
 
 interface VocabWord {
   id: number;
@@ -146,13 +148,20 @@ function FlashcardsContent() {
 
   return (
     <div className="space-y-6 max-w-2xl mx-auto">
-      <div>
-        <h1 className="text-3xl font-bold tracking-tight">Flashcards</h1>
-        <p className="text-muted-foreground mt-1">
-          {mode === "review"
-            ? "Review words due for practice"
-            : "Learn vocabulary with flashcards"}
-        </p>
+      <div className="flex items-center gap-4">
+        <Link href="/vocabulary">
+          <Button variant="ghost" size="icon" className="shrink-0">
+            <ArrowLeft className="h-4 w-4" />
+          </Button>
+        </Link>
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight">Flashcards</h1>
+          <p className="text-muted-foreground mt-1">
+            {mode === "review"
+              ? "Review words due for practice"
+              : "Learn vocabulary with flashcards"}
+          </p>
+        </div>
       </div>
 
       {/* Controls */}

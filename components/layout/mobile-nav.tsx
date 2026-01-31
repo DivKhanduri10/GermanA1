@@ -31,10 +31,21 @@ export function MobileNav() {
           <span className="sr-only">Open menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-64 p-0">
+      <SheetContent side="left" className="w-72 p-0">
         <SheetTitle className="flex h-14 items-center border-b px-4">
-          <span className="text-lg font-semibold">Goethe A1</span>
-          <span className="ml-2 text-xs text-muted-foreground">Prep</span>
+          <div className="flex items-center gap-2.5">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-sm">
+              A1
+            </div>
+            <div className="flex flex-col">
+              <span className="text-sm font-semibold leading-none">
+                Goethe A1
+              </span>
+              <span className="text-[10px] text-muted-foreground leading-tight">
+                Exam Preparation
+              </span>
+            </div>
+          </div>
         </SheetTitle>
         <nav className="flex-1 overflow-y-auto p-3 space-y-1">
           {navigationItems.map((item) => {
@@ -47,7 +58,7 @@ export function MobileNav() {
                   href={item.href}
                   onClick={() => setOpen(false)}
                   className={cn(
-                    "flex items-center gap-3 rounded-md px-3 py-2 text-sm font-medium transition-colors",
+                    "flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
                     active
                       ? "bg-primary/10 text-primary"
                       : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
@@ -57,7 +68,7 @@ export function MobileNav() {
                   {item.label}
                 </Link>
                 {item.children && active && (
-                  <div className="ml-7 mt-1 space-y-1">
+                  <div className="ml-7 mt-1 space-y-0.5 border-l-2 border-muted pl-3">
                     {item.children.map((child) => (
                       <Link
                         key={child.href}
@@ -66,8 +77,8 @@ export function MobileNav() {
                         className={cn(
                           "block rounded-md px-3 py-1.5 text-sm transition-colors",
                           pathname === child.href
-                            ? "text-primary font-medium"
-                            : "text-muted-foreground hover:text-foreground"
+                            ? "text-primary font-medium bg-primary/5"
+                            : "text-muted-foreground hover:text-foreground hover:bg-accent/50"
                         )}
                       >
                         {child.label}

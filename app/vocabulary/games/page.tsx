@@ -11,7 +11,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { RotateCcw, Clock, CheckCircle } from "lucide-react";
+import { RotateCcw, Clock, CheckCircle, ArrowLeft } from "lucide-react";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 interface VocabWord {
@@ -161,11 +162,18 @@ export default function MatchingGamePage() {
   if (state === "setup") {
     return (
       <div className="space-y-6 max-w-lg mx-auto">
-        <div>
-          <h1 className="text-3xl font-bold tracking-tight">Matching Game</h1>
-          <p className="text-muted-foreground mt-1">
-            Match German words with their English translations
-          </p>
+        <div className="flex items-center gap-4">
+          <Link href="/vocabulary">
+            <Button variant="ghost" size="icon" className="shrink-0">
+              <ArrowLeft className="h-4 w-4" />
+            </Button>
+          </Link>
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight">Matching Game</h1>
+            <p className="text-muted-foreground mt-1">
+              Match German words with their English translations
+            </p>
+          </div>
         </div>
 
         <Card>
