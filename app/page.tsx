@@ -1,65 +1,126 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { useState, useEffect } from "react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ModuleCards } from "@/components/dashboard/module-cards";
+import { BookOpen, GraduationCap, Target, Clock, Flame } from "lucide-react";
+
+interface DashboardStats {
+  overview: {
+    totalStudySessions: number;
+    studyStreak: number;
+    totalStudyTimeMinutes: number;
+  };
+  vocabulary: {
+    total: number;
+    learned: number;
+  };
+  grammar: {
+    totalTopics: number;
+    completedTopics: number;
+  };
+}
+
+export default function HomePage() {
+  const [stats, setStats] = useState<DashboardStats | null>(null);
+
+  useEffect(() => {
+    fetch("/api/progress")
+      .then((res) => res.json())
+      .then(setStats)
+      .catch(() => {});
+  }, []);
+
+  const vocabLearned = stats?.vocabulary.learned ?? 0;
+  const vocabTotal = stats?.vocabulary.total ?? 0;
+  const grammarCompleted = stats?.grammar.completedTopics ?? 0;
+  const grammarTotal = stats?.grammar.totalTopics ?? 0;
+  const studyMinutes = stats?.overview.totalStudyTimeMinutes ?? 0;
+  const streak = stats?.overview.studyStreak ?? 0;
+
+  // Simple readiness estimate
+  const vocabPct = vocabTotal > 0 ? (vocabLearned / vocabTotal) * 100 : 0;
+  const grammarPct = grammarTotal > 0 ? (grammarCompleted / grammarTotal) * 100 : 0;
+  const readiness = Math.round((vocabPct + grammarPct) / 2);
+
+  const studyHours = studyMinutes >= 60 ? `${Math.floor(studyMinutes / 60)}h ${studyMinutes % 60}m` : `${studyMinutes}m`;
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div className="space-y-6">
+      {/* Welcome Section */}
+      <div>
+        <h1 className="text-3xl font-bold tracking-tight">
+          Goethe A1 Exam Prep
+        </h1>
+        <p className="text-muted-foreground mt-1">
+          Prepare for the Goethe-Zertifikat A1 (Start Deutsch 1) exam with
+          structured learning and practice.
+        </p>
+      </div>
+
+      {/* Quick Stats */}
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+            <CardTitle className="text-sm font-medium">Words Learned</CardTitle>
+            <BookOpen className="h-4 w-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">
+              {vocabLearned} / {vocabTotal || "–"}
+            </div>
+            <p className="text-xs text-muted-foreground">vocabulary words</p>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+            <CardTitle className="text-sm font-medium">Grammar Topics</CardTitle>
+            <GraduationCap className="h-4 w-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">
+              {grammarCompleted} / {grammarTotal || "–"}
+            </div>
+            <p className="text-xs text-muted-foreground">topics completed</p>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+            <CardTitle className="text-sm font-medium">Exam Readiness</CardTitle>
+            <Target className="h-4 w-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">{readiness}%</div>
+            <p className="text-xs text-muted-foreground">overall progress</p>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+            <CardTitle className="text-sm font-medium">Study Time</CardTitle>
+            <Clock className="h-4 w-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">{studyHours}</div>
+            <p className="text-xs text-muted-foreground">total study time</p>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+            <CardTitle className="text-sm font-medium">Streak</CardTitle>
+            <Flame className="h-4 w-4 text-orange-500" />
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">{streak} day{streak !== 1 ? "s" : ""}</div>
+            <p className="text-xs text-muted-foreground">study streak</p>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Module Cards */}
+      <div>
+        <h2 className="text-xl font-semibold mb-4">Learning Modules</h2>
+        <ModuleCards />
+      </div>
     </div>
   );
 }

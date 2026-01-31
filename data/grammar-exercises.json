@@ -1,0 +1,1925 @@
+[
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "multiple-choice",
+    "question": "Ich ___ Deutsch. (lernen)",
+    "options": ["lerne", "lernst", "lernt", "lernen"],
+    "correctAnswer": "lerne",
+    "explanation": "With 'ich', the verb ending is -e: ich lerne.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "multiple-choice",
+    "question": "Du ___ in Berlin. (wohnen)",
+    "options": ["wohne", "wohnst", "wohnt", "wohnen"],
+    "correctAnswer": "wohnst",
+    "explanation": "With 'du', the verb ending is -st: du wohnst.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "multiple-choice",
+    "question": "Er ___ jeden Tag. (arbeiten)",
+    "options": ["arbeite", "arbeitest", "arbeitet", "arbeiten"],
+    "correctAnswer": "arbeitet",
+    "explanation": "With 'er', the verb ending is -et (extra e because the stem ends in -t): er arbeitet.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "multiple-choice",
+    "question": "Wir ___ gern Musik. (hören)",
+    "options": ["höre", "hörst", "hört", "hören"],
+    "correctAnswer": "hören",
+    "explanation": "With 'wir', the verb keeps the infinitive form: wir hören.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "multiple-choice",
+    "question": "Which is the correct conjugation of 'sprechen' for 'du'?",
+    "options": ["du sprechst", "du sprichst", "du sprecht", "du spreche"],
+    "correctAnswer": "du sprichst",
+    "explanation": "Sprechen has a stem change e→i with du: du sprichst.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "multiple-choice",
+    "question": "Ihr ___ sehr gut Fußball. (spielen)",
+    "options": ["spiele", "spielst", "spielt", "spielen"],
+    "correctAnswer": "spielt",
+    "explanation": "With 'ihr', the verb ending is -t: ihr spielt.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "multiple-choice",
+    "question": "Anna ___ gern Bücher. (lesen)",
+    "options": ["lest", "lese", "liest", "lesen"],
+    "correctAnswer": "liest",
+    "explanation": "Lesen has a stem change e→ie with er/sie/es: Anna liest.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "multiple-choice",
+    "question": "Er ___ nach Hamburg. (fahren)",
+    "options": ["fahrt", "fährt", "fahrst", "fahre"],
+    "correctAnswer": "fährt",
+    "explanation": "Fahren has a stem change a→ä with er/sie/es: er fährt.",
+    "difficulty": 3
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Sie (formal) ___ aus Frankreich. (kommen)",
+    "options": ["komme", "kommst", "kommt", "kommen"],
+    "correctAnswer": "kommen",
+    "explanation": "With 'Sie' (formal), the verb takes the infinitive ending: Sie kommen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Maria ___ einen Kaffee. (trinken)",
+    "options": ["trinke", "trinkst", "trinkt", "trinken"],
+    "correctAnswer": "trinkt",
+    "explanation": "Maria is third person singular (sie), so the ending is -t: trinkt.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Die Kinder ___ im Park. (spielen)",
+    "options": ["spiele", "spielst", "spielt", "spielen"],
+    "correctAnswer": "spielen",
+    "explanation": "Die Kinder is plural (sie), so the verb takes the -en ending: spielen.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Du ___ sehr schnell. (laufen)",
+    "options": ["laufe", "läufst", "lauft", "laufen"],
+    "correctAnswer": "läufst",
+    "explanation": "Laufen has a stem change au→äu with du: du läufst.",
+    "difficulty": 3
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "sentence-order",
+    "question": "Deutsch / ich / lerne / gern",
+    "options": ["Deutsch", "ich", "lerne", "gern"],
+    "correctAnswer": "Ich lerne gern Deutsch.",
+    "explanation": "The basic word order is Subject-Verb-Rest: Ich lerne gern Deutsch.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "sentence-order",
+    "question": "jeden Tag / er / Fußball / spielt",
+    "options": ["jeden Tag", "er", "Fußball", "spielt"],
+    "correctAnswer": "Er spielt jeden Tag Fußball.",
+    "explanation": "Subject first, then verb in position 2: Er spielt jeden Tag Fußball.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "present-tense",
+    "exerciseType": "sentence-order",
+    "question": "morgens / trinkt / Kaffee / Maria",
+    "options": ["morgens", "trinkt", "Kaffee", "Maria"],
+    "correctAnswer": "Maria trinkt morgens Kaffee.",
+    "explanation": "Standard word order: Maria trinkt morgens Kaffee.",
+    "difficulty": 2
+  },
+
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "multiple-choice",
+    "question": "Ich ___ müde.",
+    "options": ["bin", "bist", "ist", "sind"],
+    "correctAnswer": "bin",
+    "explanation": "With 'ich', the correct form of sein is 'bin': Ich bin müde.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "multiple-choice",
+    "question": "Du ___ ein Auto.",
+    "options": ["habe", "hast", "hat", "haben"],
+    "correctAnswer": "hast",
+    "explanation": "With 'du', the correct form of haben is 'hast': Du hast ein Auto.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "multiple-choice",
+    "question": "Wir ___ aus Deutschland.",
+    "options": ["bin", "bist", "ist", "sind"],
+    "correctAnswer": "sind",
+    "explanation": "With 'wir', the correct form of sein is 'sind': Wir sind aus Deutschland.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "multiple-choice",
+    "question": "Er ___ 30 Jahre alt.",
+    "options": ["bin", "bist", "ist", "sind"],
+    "correctAnswer": "ist",
+    "explanation": "With 'er', the correct form of sein is 'ist': Er ist 30 Jahre alt.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "multiple-choice",
+    "question": "Die Kinder ___ Hunger.",
+    "options": ["habe", "hast", "hat", "haben"],
+    "correctAnswer": "haben",
+    "explanation": "Die Kinder is plural (sie), so: sie haben Hunger.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "multiple-choice",
+    "question": "Ihr ___ sehr nett.",
+    "options": ["bin", "bist", "seid", "sind"],
+    "correctAnswer": "seid",
+    "explanation": "With 'ihr', the correct form of sein is 'seid': Ihr seid sehr nett.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "multiple-choice",
+    "question": "Maria ___ zwei Katzen.",
+    "options": ["habe", "hast", "hat", "haben"],
+    "correctAnswer": "hat",
+    "explanation": "Maria is third person singular (sie), so: sie hat zwei Katzen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "multiple-choice",
+    "question": "___ Sie Frau Müller?",
+    "options": ["Bin", "Bist", "Ist", "Sind"],
+    "correctAnswer": "Sind",
+    "explanation": "With formal 'Sie', the correct form of sein is 'sind': Sind Sie Frau Müller?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Ich ___ einen Bruder. (haben)",
+    "options": ["habe", "hast", "hat", "haben"],
+    "correctAnswer": "habe",
+    "explanation": "With 'ich', the correct form of haben is 'habe': Ich habe einen Bruder.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Das ___ mein Buch. (sein)",
+    "options": ["bin", "bist", "ist", "sind"],
+    "correctAnswer": "ist",
+    "explanation": "'Das' uses the er/sie/es form: Das ist mein Buch.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ ihr heute frei? (haben)",
+    "options": ["Habe", "Hast", "Hat", "Habt"],
+    "correctAnswer": "Habt",
+    "explanation": "With 'ihr', the correct form of haben is 'habt': Habt ihr heute frei?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Wir ___ keine Zeit. (haben)",
+    "options": ["habe", "hast", "hat", "haben"],
+    "correctAnswer": "haben",
+    "explanation": "With 'wir', the correct form of haben is 'haben': Wir haben keine Zeit.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "sentence-order",
+    "question": "bin / ich / Lehrer",
+    "options": ["bin", "ich", "Lehrer"],
+    "correctAnswer": "Ich bin Lehrer.",
+    "explanation": "Subject first, then verb: Ich bin Lehrer.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "sentence-order",
+    "question": "hat / sie / zwei Kinder",
+    "options": ["hat", "sie", "zwei Kinder"],
+    "correctAnswer": "Sie hat zwei Kinder.",
+    "explanation": "Subject-Verb-Object: Sie hat zwei Kinder.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "sein-haben",
+    "exerciseType": "sentence-order",
+    "question": "aus Spanien / wir / sind",
+    "options": ["aus Spanien", "wir", "sind"],
+    "correctAnswer": "Wir sind aus Spanien.",
+    "explanation": "Subject first, then verb: Wir sind aus Spanien.",
+    "difficulty": 2
+  },
+
+  {
+    "topicSlug": "articles",
+    "exerciseType": "multiple-choice",
+    "question": "___ Frau ist nett.",
+    "options": ["Der", "Die", "Das", "Ein"],
+    "correctAnswer": "Die",
+    "explanation": "Frau is feminine, so the definite article is 'die': Die Frau ist nett.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "multiple-choice",
+    "question": "___ Mann arbeitet hier.",
+    "options": ["Der", "Die", "Das", "Eine"],
+    "correctAnswer": "Der",
+    "explanation": "Mann is masculine, so the definite article is 'der': Der Mann arbeitet hier.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "multiple-choice",
+    "question": "___ Kind spielt im Garten.",
+    "options": ["Der", "Die", "Das", "Den"],
+    "correctAnswer": "Das",
+    "explanation": "Kind is neuter, so the definite article is 'das': Das Kind spielt im Garten.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "multiple-choice",
+    "question": "Ich habe ___ Hund.",
+    "options": ["ein", "eine", "einen", "einer"],
+    "correctAnswer": "einen",
+    "explanation": "Hund is masculine and is the direct object (accusative), so: einen Hund.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "multiple-choice",
+    "question": "Das ist ___ Buch.",
+    "options": ["ein", "eine", "einer", "einen"],
+    "correctAnswer": "ein",
+    "explanation": "Buch is neuter, and in the nominative case the indefinite article is 'ein': ein Buch.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "multiple-choice",
+    "question": "___ Zeitung ist interessant.",
+    "options": ["Der", "Die", "Das", "Ein"],
+    "correctAnswer": "Die",
+    "explanation": "Zeitung is feminine (nouns ending in -ung are feminine): Die Zeitung.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "multiple-choice",
+    "question": "Er kauft ___ Lampe.",
+    "options": ["ein", "eine", "einen", "einer"],
+    "correctAnswer": "eine",
+    "explanation": "Lampe is feminine. In the accusative, feminine stays 'eine': eine Lampe.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "multiple-choice",
+    "question": "___ Mädchen heißt Anna.",
+    "options": ["Der", "Die", "Das", "Den"],
+    "correctAnswer": "Das",
+    "explanation": "Mädchen is neuter (nouns ending in -chen are always neuter): Das Mädchen.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Wo ist ___ Schule? (feminine, definite)",
+    "options": ["der", "die", "das", "den"],
+    "correctAnswer": "die",
+    "explanation": "Schule is feminine, so the definite article is 'die': die Schule.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Ich brauche ___ Computer. (masculine, indefinite, accusative)",
+    "options": ["ein", "eine", "einen", "einer"],
+    "correctAnswer": "einen",
+    "explanation": "Computer is masculine and in the accusative: einen Computer.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ Kinder spielen draußen. (plural, definite)",
+    "options": ["Der", "Die", "Das", "Den"],
+    "correctAnswer": "Die",
+    "explanation": "The definite article for all plural nouns is 'die': Die Kinder.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Sie trinkt ___ Tee. (masculine, indefinite, accusative)",
+    "options": ["ein", "eine", "einen", "einem"],
+    "correctAnswer": "einen",
+    "explanation": "Tee is masculine and is the direct object: einen Tee.",
+    "difficulty": 3
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "sentence-order",
+    "question": "ist / das / ein Buch",
+    "options": ["ist", "das", "ein Buch"],
+    "correctAnswer": "Das ist ein Buch.",
+    "explanation": "Das ist + noun: Das ist ein Buch.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "sentence-order",
+    "question": "die Frau / einen Kaffee / trinkt",
+    "options": ["die Frau", "einen Kaffee", "trinkt"],
+    "correctAnswer": "Die Frau trinkt einen Kaffee.",
+    "explanation": "Subject-Verb-Object: Die Frau trinkt einen Kaffee.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "articles",
+    "exerciseType": "sentence-order",
+    "question": "der Mann / das Auto / kauft",
+    "options": ["der Mann", "das Auto", "kauft"],
+    "correctAnswer": "Der Mann kauft das Auto.",
+    "explanation": "Subject-Verb-Object: Der Mann kauft das Auto.",
+    "difficulty": 2
+  },
+
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "multiple-choice",
+    "question": "What is the plural of 'das Kind'?",
+    "options": ["die Kinde", "die Kinder", "die Kinds", "die Kindern"],
+    "correctAnswer": "die Kinder",
+    "explanation": "Kind forms its plural with -er: die Kinder.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "multiple-choice",
+    "question": "What is the plural of 'die Frau'?",
+    "options": ["die Fraus", "die Fräue", "die Frauen", "die Frau"],
+    "correctAnswer": "die Frauen",
+    "explanation": "Frau forms its plural with -en: die Frauen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "multiple-choice",
+    "question": "What is the plural of 'der Tisch'?",
+    "options": ["die Tische", "die Tischen", "die Tischs", "die Tischer"],
+    "correctAnswer": "die Tische",
+    "explanation": "Tisch forms its plural with -e: die Tische.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "multiple-choice",
+    "question": "What is the plural of 'das Auto'?",
+    "options": ["die Auten", "die Autos", "die Auto", "die Autoen"],
+    "correctAnswer": "die Autos",
+    "explanation": "Foreign words like Auto often form their plural with -s: die Autos.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "multiple-choice",
+    "question": "What is the plural of 'der Stuhl'?",
+    "options": ["die Stuhle", "die Stühle", "die Stühlen", "die Stuhlen"],
+    "correctAnswer": "die Stühle",
+    "explanation": "Stuhl forms its plural with umlaut + e: die Stühle.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "multiple-choice",
+    "question": "What is the plural of 'das Haus'?",
+    "options": ["die Hause", "die Hauser", "die Häuser", "die Häusen"],
+    "correctAnswer": "die Häuser",
+    "explanation": "Haus forms its plural with umlaut + er: die Häuser.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "multiple-choice",
+    "question": "What is the plural of 'die Blume'?",
+    "options": ["die Blumes", "die Blüme", "die Blumen", "die Blumer"],
+    "correctAnswer": "die Blumen",
+    "explanation": "Feminine nouns ending in -e usually add -n: die Blumen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "multiple-choice",
+    "question": "What is the plural of 'der Lehrer'?",
+    "options": ["die Lehrers", "die Lehreren", "die Lehrer", "die Lehrere"],
+    "correctAnswer": "die Lehrer",
+    "explanation": "Lehrer stays the same in the plural: die Lehrer.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "fill-in-the-blank",
+    "question": "die Lampe → die ___",
+    "options": ["Lampes", "Lampen", "Lämpe", "Lampern"],
+    "correctAnswer": "Lampen",
+    "explanation": "Feminine nouns ending in -e add -n: die Lampen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "fill-in-the-blank",
+    "question": "der Apfel → die ___",
+    "options": ["Apfels", "Apfelen", "Äpfel", "Apfel"],
+    "correctAnswer": "Äpfel",
+    "explanation": "Apfel forms its plural with an umlaut: die Äpfel.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "fill-in-the-blank",
+    "question": "das Mädchen → die ___",
+    "options": ["Mädchens", "Mädchen", "Mädchenen", "Mädcher"],
+    "correctAnswer": "Mädchen",
+    "explanation": "Nouns ending in -chen do not change in the plural: die Mädchen.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "fill-in-the-blank",
+    "question": "die Mutter → die ___",
+    "options": ["Mutters", "Muttern", "Mütter", "Mutteren"],
+    "correctAnswer": "Mütter",
+    "explanation": "Mutter forms its plural with an umlaut only: die Mütter.",
+    "difficulty": 3
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "sentence-order",
+    "question": "sind / die Bücher / interessant",
+    "options": ["sind", "die Bücher", "interessant"],
+    "correctAnswer": "Die Bücher sind interessant.",
+    "explanation": "Subject-Verb-Adjective: Die Bücher sind interessant.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "sentence-order",
+    "question": "drei Kinder / hat / die Frau",
+    "options": ["drei Kinder", "hat", "die Frau"],
+    "correctAnswer": "Die Frau hat drei Kinder.",
+    "explanation": "Subject-Verb-Object: Die Frau hat drei Kinder.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "plural-forms",
+    "exerciseType": "sentence-order",
+    "question": "die Äpfel / kaufen / wir / im Supermarkt",
+    "options": ["die Äpfel", "kaufen", "wir", "im Supermarkt"],
+    "correctAnswer": "Wir kaufen die Äpfel im Supermarkt.",
+    "explanation": "Subject-Verb-Object-Place: Wir kaufen die Äpfel im Supermarkt.",
+    "difficulty": 2
+  },
+
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "multiple-choice",
+    "question": "Der Mann ist nett. ___ heißt Peter.",
+    "options": ["Sie", "Er", "Es", "Wir"],
+    "correctAnswer": "Er",
+    "explanation": "Mann is masculine, so we use the pronoun 'er': Er heißt Peter.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "multiple-choice",
+    "question": "Die Frau ist Ärztin. ___ arbeitet im Krankenhaus.",
+    "options": ["Er", "Sie", "Es", "Ihr"],
+    "correctAnswer": "Sie",
+    "explanation": "Frau is feminine, so we use 'sie': Sie arbeitet im Krankenhaus.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "multiple-choice",
+    "question": "Das Buch ist interessant. ___ ist sehr gut.",
+    "options": ["Er", "Sie", "Es", "Wir"],
+    "correctAnswer": "Es",
+    "explanation": "Buch is neuter, so we use 'es': Es ist sehr gut.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "multiple-choice",
+    "question": "Which pronoun would you use to address your teacher politely?",
+    "options": ["du", "ihr", "Sie", "er"],
+    "correctAnswer": "Sie",
+    "explanation": "In formal situations, use 'Sie' (capitalized) to address someone politely.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "multiple-choice",
+    "question": "Maria und ich gehen ins Kino. ___ sehen einen Film.",
+    "options": ["Sie", "Ihr", "Wir", "Ich"],
+    "correctAnswer": "Wir",
+    "explanation": "Maria und ich = wir (we): Wir sehen einen Film.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "multiple-choice",
+    "question": "Tom und Lisa lernen Deutsch. ___ sind Studenten.",
+    "options": ["Er", "Sie", "Wir", "Ihr"],
+    "correctAnswer": "Sie",
+    "explanation": "Tom und Lisa (they) = sie (lowercase): Sie sind Studenten.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "multiple-choice",
+    "question": "Which pronoun replaces 'die Katze'?",
+    "options": ["er", "sie", "es", "wir"],
+    "correctAnswer": "sie",
+    "explanation": "Katze is feminine (die Katze), so the pronoun is 'sie'.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "multiple-choice",
+    "question": "Anna und du, ___ kommt aus Berlin, oder?",
+    "options": ["wir", "sie", "ihr", "du"],
+    "correctAnswer": "ihr",
+    "explanation": "Anna und du = ihr (you all, informal plural): Ihr kommt aus Berlin.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ bin 25 Jahre alt.",
+    "options": ["Ich", "Du", "Er", "Wir"],
+    "correctAnswer": "Ich",
+    "explanation": "The verb 'bin' goes with 'ich': Ich bin 25 Jahre alt.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Herr Schmidt, woher kommen ___?",
+    "options": ["du", "ihr", "Sie", "er"],
+    "correctAnswer": "Sie",
+    "explanation": "Herr Schmidt is addressed formally, so we use 'Sie'.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Das Haus ist groß. ___ hat einen Garten.",
+    "options": ["Er", "Sie", "Es", "Wir"],
+    "correctAnswer": "Es",
+    "explanation": "Haus is neuter (das Haus), so we use 'es': Es hat einen Garten.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Meine Freunde und ich, ___ spielen gern Tennis.",
+    "options": ["sie", "ihr", "wir", "ich"],
+    "correctAnswer": "wir",
+    "explanation": "Meine Freunde und ich = wir: Wir spielen gern Tennis.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "sentence-order",
+    "question": "aus Japan / sie / kommt",
+    "options": ["aus Japan", "sie", "kommt"],
+    "correctAnswer": "Sie kommt aus Japan.",
+    "explanation": "Subject-Verb-Prepositional phrase: Sie kommt aus Japan.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "sentence-order",
+    "question": "heißt / wie / Sie",
+    "options": ["heißt", "wie", "Sie"],
+    "correctAnswer": "Wie heißen Sie?",
+    "explanation": "Formal question: Wie heißen Sie? Note: the verb must agree with Sie (heißen).",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "personal-pronouns",
+    "exerciseType": "sentence-order",
+    "question": "wir / in München / wohnen",
+    "options": ["wir", "in München", "wohnen"],
+    "correctAnswer": "Wir wohnen in München.",
+    "explanation": "Subject-Verb-Place: Wir wohnen in München.",
+    "difficulty": 1
+  },
+
+  {
+    "topicSlug": "negation",
+    "exerciseType": "multiple-choice",
+    "question": "Ich habe ___ Auto.",
+    "options": ["nicht", "kein", "keine", "nichts"],
+    "correctAnswer": "kein",
+    "explanation": "Auto is neuter and would use 'ein' in positive. Negate with 'kein': kein Auto.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "multiple-choice",
+    "question": "Das ist ___ gut.",
+    "options": ["kein", "keine", "nicht", "keinen"],
+    "correctAnswer": "nicht",
+    "explanation": "To negate an adjective, use 'nicht': Das ist nicht gut.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "multiple-choice",
+    "question": "Wir haben ___ Kinder.",
+    "options": ["nicht", "kein", "keine", "keinen"],
+    "correctAnswer": "keine",
+    "explanation": "Kinder is plural. The negation of a plural noun uses 'keine': keine Kinder.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "multiple-choice",
+    "question": "Er kommt heute ___.",
+    "options": ["kein", "keine", "keinen", "nicht"],
+    "correctAnswer": "nicht",
+    "explanation": "To negate a verb, use 'nicht' at the end: Er kommt heute nicht.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "multiple-choice",
+    "question": "Ich trinke ___ Kaffee.",
+    "options": ["nicht", "kein", "keinen", "keine"],
+    "correctAnswer": "keinen",
+    "explanation": "Kaffee is masculine and the direct object (accusative). Negate with 'keinen': keinen Kaffee.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "multiple-choice",
+    "question": "Sie ist ___ meine Schwester.",
+    "options": ["kein", "keine", "nicht", "keinen"],
+    "correctAnswer": "nicht",
+    "explanation": "Before possessive articles, use 'nicht': Sie ist nicht meine Schwester.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "multiple-choice",
+    "question": "Das ist ___ Problem.",
+    "options": ["nicht", "kein", "keine", "keinen"],
+    "correctAnswer": "kein",
+    "explanation": "Problem is neuter and would use 'ein' in positive. Negate with 'kein': kein Problem.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "multiple-choice",
+    "question": "Er spricht ___ Spanisch.",
+    "options": ["kein", "keine", "nicht", "keinen"],
+    "correctAnswer": "nicht",
+    "explanation": "Languages without articles are negated with 'nicht': nicht Spanisch.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Ich habe ___ Bruder. (no brother, masculine accusative)",
+    "options": ["nicht", "kein", "keinen", "keine"],
+    "correctAnswer": "keinen",
+    "explanation": "Bruder is masculine and the direct object: keinen Bruder.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Wir verstehen das ___. (not)",
+    "options": ["nicht", "kein", "keine", "keinen"],
+    "correctAnswer": "nicht",
+    "explanation": "Negating the verb: nicht goes at the end. Wir verstehen das nicht.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Ich habe ___ Zeit. (no time, feminine)",
+    "options": ["nicht", "kein", "keine", "keinen"],
+    "correctAnswer": "keine",
+    "explanation": "Zeit is feminine and used without an article. Negate with 'keine': keine Zeit.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Er geht ___ ins Kino. (not)",
+    "options": ["nicht", "kein", "keine", "keinen"],
+    "correctAnswer": "nicht",
+    "explanation": "Before prepositional phrases, use 'nicht': Er geht nicht ins Kino.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "sentence-order",
+    "question": "kein / ich / Auto / habe",
+    "options": ["kein", "ich", "Auto", "habe"],
+    "correctAnswer": "Ich habe kein Auto.",
+    "explanation": "Subject-Verb-Negation-Object: Ich habe kein Auto.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "sentence-order",
+    "question": "nicht / er / heute / kommt",
+    "options": ["nicht", "er", "heute", "kommt"],
+    "correctAnswer": "Er kommt heute nicht.",
+    "explanation": "Nicht goes at the end: Er kommt heute nicht.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "negation",
+    "exerciseType": "sentence-order",
+    "question": "keine / wir / Hausaufgaben / haben",
+    "options": ["keine", "wir", "Hausaufgaben", "haben"],
+    "correctAnswer": "Wir haben keine Hausaufgaben.",
+    "explanation": "Subject-Verb-Negation-Object: Wir haben keine Hausaufgaben.",
+    "difficulty": 2
+  },
+
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "multiple-choice",
+    "question": "Which sentence has correct German word order?",
+    "options": ["Ich gern trinke Kaffee.", "Ich trinke gern Kaffee.", "Gern ich trinke Kaffee.", "Trinke ich gern Kaffee."],
+    "correctAnswer": "Ich trinke gern Kaffee.",
+    "explanation": "The verb must be in position 2: Ich trinke gern Kaffee.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "multiple-choice",
+    "question": "Heute ___ ich Deutsch.",
+    "options": ["lerne", "ich lerne", "lerne ich", "lernen"],
+    "correctAnswer": "lerne",
+    "explanation": "When 'Heute' is in position 1, the verb stays in position 2: Heute lerne ich Deutsch.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "multiple-choice",
+    "question": "Which is correct word order with inversion?",
+    "options": ["Morgen ich gehe ins Kino.", "Morgen gehe ich ins Kino.", "Ich morgen gehe ins Kino.", "Morgen ins Kino gehe ich."],
+    "correctAnswer": "Morgen gehe ich ins Kino.",
+    "explanation": "With inversion, verb stays in position 2 and subject moves after it: Morgen gehe ich ins Kino.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "multiple-choice",
+    "question": "In Berlin ___ Maria.",
+    "options": ["wohnt", "wohnen", "wohne", "wohnst"],
+    "correctAnswer": "wohnt",
+    "explanation": "Inversion: In Berlin wohnt Maria. The verb agrees with Maria (third person singular).",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "multiple-choice",
+    "question": "What is the correct Time-Manner-Place order?",
+    "options": [
+      "Ich fahre nach Hamburg morgen mit dem Bus.",
+      "Ich fahre mit dem Bus morgen nach Hamburg.",
+      "Ich fahre morgen mit dem Bus nach Hamburg.",
+      "Ich fahre morgen nach Hamburg mit dem Bus."
+    ],
+    "correctAnswer": "Ich fahre morgen mit dem Bus nach Hamburg.",
+    "explanation": "Time (morgen) - Manner (mit dem Bus) - Place (nach Hamburg).",
+    "difficulty": 3
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "multiple-choice",
+    "question": "Am Montag ___ wir Tennis.",
+    "options": ["spielen", "spielt", "spiele", "spielst"],
+    "correctAnswer": "spielen",
+    "explanation": "Inversion: Am Montag spielen wir Tennis. The verb agrees with 'wir'.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "multiple-choice",
+    "question": "Which sentence is correct?",
+    "options": [
+      "Abends ich sehe gern fern.",
+      "Abends sehe ich gern fern.",
+      "Ich abends sehe gern fern.",
+      "Sehe abends ich gern fern."
+    ],
+    "correctAnswer": "Abends sehe ich gern fern.",
+    "explanation": "Time expression first, then verb in position 2, then subject: Abends sehe ich gern fern.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "multiple-choice",
+    "question": "Where is the verb in a German statement?",
+    "options": ["Position 1", "Position 2", "At the end", "Anywhere"],
+    "correctAnswer": "Position 2",
+    "explanation": "In German statements, the conjugated verb is always in position 2.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Am Wochenende ___ er gern Fußball. (spielen)",
+    "options": ["spielen", "spielt", "spiele", "spielst"],
+    "correctAnswer": "spielt",
+    "explanation": "Inversion: Am Wochenende spielt er gern Fußball.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Danach ___ wir ins Restaurant. (gehen)",
+    "options": ["gehe", "gehst", "geht", "gehen"],
+    "correctAnswer": "gehen",
+    "explanation": "Inversion: Danach gehen wir ins Restaurant. Verb agrees with 'wir'.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Um 8 Uhr ___ der Unterricht. (beginnen)",
+    "options": ["beginne", "beginnst", "beginnt", "beginnen"],
+    "correctAnswer": "beginnt",
+    "explanation": "Inversion: Um 8 Uhr beginnt der Unterricht.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Manchmal ___ ich gern Pizza. (essen)",
+    "options": ["esse", "isst", "esst", "essen"],
+    "correctAnswer": "esse",
+    "explanation": "Inversion: Manchmal esse ich gern Pizza. Verb agrees with 'ich'.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "sentence-order",
+    "question": "morgen / ich / nach Berlin / fahre",
+    "options": ["morgen", "ich", "nach Berlin", "fahre"],
+    "correctAnswer": "Ich fahre morgen nach Berlin.",
+    "explanation": "Subject-Verb-Time-Place: Ich fahre morgen nach Berlin.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "sentence-order",
+    "question": "am Abend / wir / gern / lesen",
+    "options": ["am Abend", "wir", "gern", "lesen"],
+    "correctAnswer": "Wir lesen am Abend gern.",
+    "explanation": "Standard order: Wir lesen am Abend gern.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "word-order",
+    "exerciseType": "sentence-order",
+    "question": "im Sommer / oft / er / schwimmt",
+    "options": ["im Sommer", "oft", "er", "schwimmt"],
+    "correctAnswer": "Er schwimmt im Sommer oft.",
+    "explanation": "Subject-Verb-Time-Frequency: Er schwimmt im Sommer oft.",
+    "difficulty": 3
+  },
+
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "multiple-choice",
+    "question": "Ich sehe ___ Mann. (the)",
+    "options": ["der", "den", "dem", "des"],
+    "correctAnswer": "den",
+    "explanation": "Mann is masculine. In the accusative, 'der' changes to 'den': den Mann.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "multiple-choice",
+    "question": "Er kauft ___ Buch. (a)",
+    "options": ["ein", "einen", "eine", "einem"],
+    "correctAnswer": "ein",
+    "explanation": "Buch is neuter. Neuter does not change in the accusative: ein Buch.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "multiple-choice",
+    "question": "Wir trinken ___ Kaffee. (a)",
+    "options": ["ein", "einen", "eine", "einem"],
+    "correctAnswer": "einen",
+    "explanation": "Kaffee is masculine. In the accusative: einen Kaffee.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "multiple-choice",
+    "question": "Sie liest ___ Zeitung. (the)",
+    "options": ["der", "die", "den", "das"],
+    "correctAnswer": "die",
+    "explanation": "Zeitung is feminine. Feminine does not change in the accusative: die Zeitung.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "multiple-choice",
+    "question": "Ich kenne ___ (he/him).",
+    "options": ["er", "ihn", "ihm", "sein"],
+    "correctAnswer": "ihn",
+    "explanation": "The accusative pronoun for 'er' is 'ihn': Ich kenne ihn.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "multiple-choice",
+    "question": "Er liebt ___ (she/her).",
+    "options": ["sie", "ihr", "sie", "es"],
+    "correctAnswer": "sie",
+    "explanation": "The accusative pronoun for 'sie' (she) is 'sie': Er liebt sie.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "multiple-choice",
+    "question": "Ich brauche ___ Computer. (the, masculine)",
+    "options": ["der", "den", "dem", "das"],
+    "correctAnswer": "den",
+    "explanation": "Computer is masculine. Accusative: den Computer.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "multiple-choice",
+    "question": "Hast du ___ Hund? (a)",
+    "options": ["ein", "einen", "eine", "einem"],
+    "correctAnswer": "einen",
+    "explanation": "Hund is masculine. In the accusative: einen Hund.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Sie isst ___ Apfel. (the, masculine)",
+    "options": ["der", "den", "die", "das"],
+    "correctAnswer": "den",
+    "explanation": "Apfel is masculine. In the accusative: den Apfel.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Wir sehen ___ (you, informal singular).",
+    "options": ["du", "dich", "dir", "dein"],
+    "correctAnswer": "dich",
+    "explanation": "The accusative pronoun for 'du' is 'dich': Wir sehen dich.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Er hat ___ Schwester. (a, feminine)",
+    "options": ["ein", "eine", "einen", "einem"],
+    "correctAnswer": "eine",
+    "explanation": "Schwester is feminine. Feminine doesn't change in accusative: eine Schwester.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Ich suche ___ Schlüssel. (the, masculine)",
+    "options": ["der", "den", "die", "das"],
+    "correctAnswer": "den",
+    "explanation": "Schlüssel is masculine. In the accusative: den Schlüssel.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "sentence-order",
+    "question": "einen Kaffee / ich / trinke",
+    "options": ["einen Kaffee", "ich", "trinke"],
+    "correctAnswer": "Ich trinke einen Kaffee.",
+    "explanation": "Subject-Verb-Object: Ich trinke einen Kaffee.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "sentence-order",
+    "question": "den Film / wir / sehen / heute",
+    "options": ["den Film", "wir", "sehen", "heute"],
+    "correctAnswer": "Wir sehen heute den Film.",
+    "explanation": "Subject-Verb-Time-Object: Wir sehen heute den Film.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "accusative-case",
+    "exerciseType": "sentence-order",
+    "question": "er / kauft / einen Kuchen / für seine Mutter",
+    "options": ["er", "kauft", "einen Kuchen", "für seine Mutter"],
+    "correctAnswer": "Er kauft einen Kuchen für seine Mutter.",
+    "explanation": "Subject-Verb-Object-Prepositional phrase: Er kauft einen Kuchen für seine Mutter.",
+    "difficulty": 3
+  },
+
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "multiple-choice",
+    "question": "How do you form a yes/no question from 'Du sprichst Deutsch'?",
+    "options": ["Du sprichst Deutsch?", "Sprichst du Deutsch?", "Deutsch sprichst du?", "Sprichst Deutsch du?"],
+    "correctAnswer": "Sprichst du Deutsch?",
+    "explanation": "Move the verb to position 1: Sprichst du Deutsch?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ Sie aus Deutschland?",
+    "options": ["Sind", "Kommen", "Haben", "All of these are possible"],
+    "correctAnswer": "All of these are possible",
+    "explanation": "All options create valid yes/no questions: Sind/Kommen/Haben Sie aus Deutschland?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "multiple-choice",
+    "question": "Which is the correct yes/no question?",
+    "options": ["Hast einen Bruder du?", "Du hast einen Bruder?", "Hast du einen Bruder?", "Einen Bruder hast du?"],
+    "correctAnswer": "Hast du einen Bruder?",
+    "explanation": "Verb first, then subject: Hast du einen Bruder?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "multiple-choice",
+    "question": "Sprichst du nicht Deutsch? — ___, ich spreche Deutsch!",
+    "options": ["Ja", "Nein", "Doch", "Nicht"],
+    "correctAnswer": "Doch",
+    "explanation": "Use 'doch' to contradict a negative question positively: Doch, ich spreche Deutsch!",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ ihr morgen Zeit?",
+    "options": ["Habt", "Hast", "Hat", "Haben"],
+    "correctAnswer": "Habt",
+    "explanation": "With 'ihr', use 'habt': Habt ihr morgen Zeit?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ das Buch interessant?",
+    "options": ["Ist", "Bist", "Sind", "Seid"],
+    "correctAnswer": "Ist",
+    "explanation": "'Das Buch' is third person singular: Ist das Buch interessant?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ die Kinder draußen?",
+    "options": ["Spielt", "Spielen", "Spiele", "Spielst"],
+    "correctAnswer": "Spielen",
+    "explanation": "Die Kinder is plural: Spielen die Kinder draußen?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "multiple-choice",
+    "question": "Which answer uses 'doch' correctly?",
+    "options": [
+      "Hast du Hunger? — Doch!",
+      "Bist du nicht müde? — Doch, ich bin müde!",
+      "Kommst du? — Doch, ich komme.",
+      "Ist das gut? — Doch!"
+    ],
+    "correctAnswer": "Bist du nicht müde? — Doch, ich bin müde!",
+    "explanation": "'Doch' is used to contradict a negative question: Bist du nicht müde? — Doch!",
+    "difficulty": 3
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ du heute Abend ins Kino? (gehen)",
+    "options": ["Gehst", "Gehe", "Geht", "Gehen"],
+    "correctAnswer": "Gehst",
+    "explanation": "Yes/no question with 'du': Gehst du heute Abend ins Kino?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ er einen Bruder? (haben)",
+    "options": ["Habe", "Hast", "Hat", "Haben"],
+    "correctAnswer": "Hat",
+    "explanation": "With 'er', the form of haben is 'hat': Hat er einen Bruder?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ Sie Kaffee oder Tee? (möchten)",
+    "options": ["Möchte", "Möchtest", "Möchten", "Möchtet"],
+    "correctAnswer": "Möchten",
+    "explanation": "With formal 'Sie': Möchten Sie Kaffee oder Tee?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ wir zusammen essen? (können)",
+    "options": ["Kann", "Kannst", "Können", "Könnt"],
+    "correctAnswer": "Können",
+    "explanation": "With 'wir': Können wir zusammen essen?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "sentence-order",
+    "question": "du / Deutsch / sprichst",
+    "options": ["du", "Deutsch", "sprichst"],
+    "correctAnswer": "Sprichst du Deutsch?",
+    "explanation": "Yes/no question: verb first — Sprichst du Deutsch?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "sentence-order",
+    "question": "morgen / kommst / du / auch",
+    "options": ["morgen", "kommst", "du", "auch"],
+    "correctAnswer": "Kommst du morgen auch?",
+    "explanation": "Yes/no question: Kommst du morgen auch?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "yes-no-questions",
+    "exerciseType": "sentence-order",
+    "question": "Sie / sind / Herr Müller",
+    "options": ["Sie", "sind", "Herr Müller"],
+    "correctAnswer": "Sind Sie Herr Müller?",
+    "explanation": "Formal yes/no question: Sind Sie Herr Müller?",
+    "difficulty": 1
+  },
+
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ heißt du?",
+    "options": ["Was", "Wo", "Wie", "Wer"],
+    "correctAnswer": "Wie",
+    "explanation": "To ask someone's name: Wie heißt du? (How are you called?)",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ wohnst du?",
+    "options": ["Woher", "Wo", "Wohin", "Wann"],
+    "correctAnswer": "Wo",
+    "explanation": "'Wo' asks about location: Wo wohnst du? (Where do you live?)",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ kommst du?",
+    "options": ["Wo", "Woher", "Wohin", "Wie"],
+    "correctAnswer": "Woher",
+    "explanation": "'Woher' asks about origin: Woher kommst du? (Where do you come from?)",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ kostet das Buch?",
+    "options": ["Wie", "Was", "Wer", "Wo"],
+    "correctAnswer": "Was",
+    "explanation": "'Was' asks about things/prices: Was kostet das Buch? (What does the book cost?)",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ ist das? — Das ist mein Bruder.",
+    "options": ["Was", "Wie", "Wer", "Wo"],
+    "correctAnswer": "Wer",
+    "explanation": "'Wer' asks about people: Wer ist das? (Who is that?)",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ gehst du? — Ich gehe ins Kino.",
+    "options": ["Wo", "Woher", "Wohin", "Wann"],
+    "correctAnswer": "Wohin",
+    "explanation": "'Wohin' asks about destination: Wohin gehst du? (Where are you going?)",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ lernst du Deutsch? — Weil ich in Deutschland arbeite.",
+    "options": ["Was", "Wie", "Wann", "Warum"],
+    "correctAnswer": "Warum",
+    "explanation": "'Warum' asks for reasons: Warum lernst du Deutsch? (Why do you learn German?)",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "multiple-choice",
+    "question": "___ Kinder hast du? — Ich habe zwei Kinder.",
+    "options": ["Wie", "Wie viel", "Wie viele", "Was"],
+    "correctAnswer": "Wie viele",
+    "explanation": "'Wie viele' asks about countable amounts: Wie viele Kinder hast du?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ beginnt der Kurs? — Um 9 Uhr.",
+    "options": ["Wo", "Wie", "Wann", "Was"],
+    "correctAnswer": "Wann",
+    "explanation": "'Wann' asks about time: Wann beginnt der Kurs?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ alt bist du? — Ich bin 20 Jahre alt.",
+    "options": ["Was", "Wie", "Wer", "Wo"],
+    "correctAnswer": "Wie",
+    "explanation": "'Wie alt' asks about age: Wie alt bist du?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ machst du am Wochenende?",
+    "options": ["Wie", "Wer", "Was", "Wo"],
+    "correctAnswer": "Was",
+    "explanation": "'Was' asks about activities: Was machst du am Wochenende?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ Sprachen sprichst du?",
+    "options": ["Wie viel", "Wie viele", "Wie", "Was"],
+    "correctAnswer": "Wie viele",
+    "explanation": "'Wie viele' for countable nouns: Wie viele Sprachen sprichst du?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "sentence-order",
+    "question": "du / wo / wohnst",
+    "options": ["du", "wo", "wohnst"],
+    "correctAnswer": "Wo wohnst du?",
+    "explanation": "W-word first, then verb: Wo wohnst du?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "sentence-order",
+    "question": "heißen / wie / Sie",
+    "options": ["heißen", "wie", "Sie"],
+    "correctAnswer": "Wie heißen Sie?",
+    "explanation": "W-word first, verb second: Wie heißen Sie?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "w-questions",
+    "exerciseType": "sentence-order",
+    "question": "fährt / wann / der Zug / nach München",
+    "options": ["fährt", "wann", "der Zug", "nach München"],
+    "correctAnswer": "Wann fährt der Zug nach München?",
+    "explanation": "W-word, verb, subject, rest: Wann fährt der Zug nach München?",
+    "difficulty": 2
+  },
+
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Ich ___ Deutsch sprechen.",
+    "options": ["kann", "kannst", "können", "könnt"],
+    "correctAnswer": "kann",
+    "explanation": "With 'ich', the form of können is 'kann': Ich kann Deutsch sprechen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Du ___ morgen früh aufstehen.",
+    "options": ["muss", "musst", "müssen", "müsst"],
+    "correctAnswer": "musst",
+    "explanation": "With 'du', the form of müssen is 'musst': Du musst morgen früh aufstehen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Wir ___ eine Pizza bestellen.",
+    "options": ["möchte", "möchtest", "möchten", "möchtet"],
+    "correctAnswer": "möchten",
+    "explanation": "With 'wir', the form of möchten is 'möchten': Wir möchten eine Pizza bestellen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Hier ___ man nicht rauchen.",
+    "options": ["darf", "darfst", "dürfen", "dürft"],
+    "correctAnswer": "darf",
+    "explanation": "'Man' uses the er/sie/es form: Man darf hier nicht rauchen.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Er ___ nach Berlin fahren.",
+    "options": ["will", "willst", "wollen", "wollt"],
+    "correctAnswer": "will",
+    "explanation": "With 'er', the form of wollen is 'will': Er will nach Berlin fahren.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Where does the infinitive go in a sentence with a modal verb?",
+    "options": ["In position 2", "After the modal verb", "At the end of the sentence", "Before the subject"],
+    "correctAnswer": "At the end of the sentence",
+    "explanation": "The infinitive always goes to the end: Ich kann gut Deutsch sprechen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Ihr ___ leise sein.",
+    "options": ["soll", "sollst", "sollen", "sollt"],
+    "correctAnswer": "sollt",
+    "explanation": "With 'ihr', the form of sollen is 'sollt': Ihr sollt leise sein.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "___ ich Ihnen helfen?",
+    "options": ["Kann", "Kannst", "Können", "Könnt"],
+    "correctAnswer": "Kann",
+    "explanation": "With 'ich', the form is 'kann': Kann ich Ihnen helfen?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Die Kinder ___ im Garten spielen. (dürfen)",
+    "options": ["darf", "darfst", "dürfen", "dürft"],
+    "correctAnswer": "dürfen",
+    "explanation": "Die Kinder is plural (sie): Die Kinder dürfen im Garten spielen.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Ich ___ ein Glas Wasser, bitte. (möchten)",
+    "options": ["möchte", "möchtest", "möchten", "möchtet"],
+    "correctAnswer": "möchte",
+    "explanation": "With 'ich': Ich möchte ein Glas Wasser.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ du schwimmen? (können)",
+    "options": ["Kann", "Kannst", "Können", "Könnt"],
+    "correctAnswer": "Kannst",
+    "explanation": "With 'du': Kannst du schwimmen?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Wir ___ um 8 Uhr in der Schule sein. (müssen)",
+    "options": ["muss", "musst", "müssen", "müsst"],
+    "correctAnswer": "müssen",
+    "explanation": "With 'wir': Wir müssen um 8 Uhr in der Schule sein.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "sentence-order",
+    "question": "kann / ich / gut / schwimmen",
+    "options": ["kann", "ich", "gut", "schwimmen"],
+    "correctAnswer": "Ich kann gut schwimmen.",
+    "explanation": "Subject-Modal-Adverb-Infinitive(end): Ich kann gut schwimmen.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "sentence-order",
+    "question": "du / musst / Hausaufgaben / deine / machen",
+    "options": ["du", "musst", "Hausaufgaben", "deine", "machen"],
+    "correctAnswer": "Du musst deine Hausaufgaben machen.",
+    "explanation": "Subject-Modal-Object-Infinitive(end): Du musst deine Hausaufgaben machen.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "modal-verbs",
+    "exerciseType": "sentence-order",
+    "question": "möchte / eine Pizza / er / bestellen",
+    "options": ["möchte", "eine Pizza", "er", "bestellen"],
+    "correctAnswer": "Er möchte eine Pizza bestellen.",
+    "explanation": "Subject-Modal-Object-Infinitive(end): Er möchte eine Pizza bestellen.",
+    "difficulty": 2
+  },
+
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Ich ___ um 7 Uhr ___. (aufstehen)",
+    "options": ["stehe...auf", "aufstehe", "stehe...an", "auf...stehe"],
+    "correctAnswer": "stehe...auf",
+    "explanation": "The prefix separates: Ich stehe um 7 Uhr auf.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Er ___ seine Mutter ___. (anrufen)",
+    "options": ["ruft...an", "anruft", "ruft...auf", "an...ruft"],
+    "correctAnswer": "ruft...an",
+    "explanation": "The prefix 'an' goes to the end: Er ruft seine Mutter an.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Wir ___ im Supermarkt ___. (einkaufen)",
+    "options": ["kaufen...ein", "einkaufen", "kaufen...aus", "ein...kaufen"],
+    "correctAnswer": "kaufen...ein",
+    "explanation": "The prefix 'ein' goes to the end: Wir kaufen im Supermarkt ein.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "What happens to a separable verb when used with a modal verb?",
+    "options": [
+      "The prefix still separates",
+      "The verb stays together as an infinitive at the end",
+      "The prefix goes before the modal verb",
+      "The prefix is dropped"
+    ],
+    "correctAnswer": "The verb stays together as an infinitive at the end",
+    "explanation": "With modal verbs, the separable verb stays together: Ich muss früh aufstehen.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Die Kinder ___ abends gern ___. (fernsehen)",
+    "options": ["sehen...fern", "fernsehen", "sehen...an", "fern...sehen"],
+    "correctAnswer": "sehen...fern",
+    "explanation": "The prefix 'fern' goes to the end: Die Kinder sehen abends gern fern.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Der Zug ___ um 8 Uhr ___. (abfahren)",
+    "options": ["fährt...ab", "abfährt", "fahrt...ab", "fährt...auf"],
+    "correctAnswer": "fährt...ab",
+    "explanation": "Note the stem change a→ä: Der Zug fährt um 8 Uhr ab.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "___ du morgen ___? (mitkommen)",
+    "options": ["Kommst...mit", "Mitkommst", "Kommt...mit", "Kommst...an"],
+    "correctAnswer": "Kommst...mit",
+    "explanation": "In questions, the verb comes first but the prefix stays at the end: Kommst du morgen mit?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "multiple-choice",
+    "question": "Ich muss morgen früh ___.",
+    "options": ["aufstehen", "stehe auf", "aufstehe", "stehen auf"],
+    "correctAnswer": "aufstehen",
+    "explanation": "With a modal verb, the separable verb stays together as infinitive: aufstehen.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Bitte ___ die Tür ___! (zumachen, du-form)",
+    "options": ["mach...zu", "machst...zu", "macht...zu", "machen...zu"],
+    "correctAnswer": "mach...zu",
+    "explanation": "Imperative du-form: Mach die Tür zu!",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Wann ___ du morgens ___? (aufstehen)",
+    "options": ["stehe...auf", "stehst...auf", "steht...auf", "stehen...auf"],
+    "correctAnswer": "stehst...auf",
+    "explanation": "With 'du': Wann stehst du morgens auf?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Maria ___ jeden Samstag ___. (ausgehen)",
+    "options": ["geht...aus", "geht...an", "geht...auf", "geht...ein"],
+    "correctAnswer": "geht...aus",
+    "explanation": "Maria geht jeden Samstag aus. The prefix 'aus' goes to the end.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Wir ___ heute Abend nicht ___. (ausgehen)",
+    "options": ["gehen...aus", "geht...aus", "gehe...aus", "gehen...an"],
+    "correctAnswer": "gehen...aus",
+    "explanation": "With 'wir': Wir gehen heute Abend nicht aus.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "sentence-order",
+    "question": "um 6 Uhr / ich / auf / stehe",
+    "options": ["um 6 Uhr", "ich", "auf", "stehe"],
+    "correctAnswer": "Ich stehe um 6 Uhr auf.",
+    "explanation": "Subject-Verb-Time-Prefix: Ich stehe um 6 Uhr auf.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "sentence-order",
+    "question": "der Zug / fährt / um 9 Uhr / ab",
+    "options": ["der Zug", "fährt", "um 9 Uhr", "ab"],
+    "correctAnswer": "Der Zug fährt um 9 Uhr ab.",
+    "explanation": "Subject-Verb-Time-Prefix: Der Zug fährt um 9 Uhr ab.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "separable-verbs",
+    "exerciseType": "sentence-order",
+    "question": "wir / möchten / heute / einkaufen / gehen",
+    "options": ["wir", "möchten", "heute", "einkaufen", "gehen"],
+    "correctAnswer": "Wir möchten heute einkaufen gehen.",
+    "explanation": "With modal: Wir möchten heute einkaufen gehen.",
+    "difficulty": 3
+  },
+
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "multiple-choice",
+    "question": "What is the du-imperative of 'kommen'?",
+    "options": ["Komm!", "Kommst!", "Kommen!", "Komme!"],
+    "correctAnswer": "Komm!",
+    "explanation": "Du-imperative: remove -st ending from du-form. Du kommst → Komm!",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "multiple-choice",
+    "question": "What is the Sie-imperative of 'sprechen'?",
+    "options": ["Sprich!", "Sprecht!", "Sprechen Sie!", "Sprech Sie!"],
+    "correctAnswer": "Sprechen Sie!",
+    "explanation": "Sie-imperative: infinitive + Sie: Sprechen Sie!",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "multiple-choice",
+    "question": "What is the ihr-imperative of 'schreiben'?",
+    "options": ["Schreib!", "Schreibt!", "Schreiben!", "Schreibet!"],
+    "correctAnswer": "Schreibt!",
+    "explanation": "Ihr-imperative: same as ihr-form without pronoun: Schreibt!",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "multiple-choice",
+    "question": "What is the du-imperative of 'lesen'?",
+    "options": ["Les!", "Lest!", "Lies!", "Lese!"],
+    "correctAnswer": "Lies!",
+    "explanation": "Lesen has a stem change e→ie in du-form. Du liest → Lies!",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "multiple-choice",
+    "question": "What is the du-imperative of 'geben'?",
+    "options": ["Geb!", "Gibt!", "Gib!", "Gebe!"],
+    "correctAnswer": "Gib!",
+    "explanation": "Geben has a stem change e→i in du-form. Du gibst → Gib!",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "multiple-choice",
+    "question": "___ bitte langsamer! (sprechen, Sie-form)",
+    "options": ["Sprich", "Sprecht", "Sprechen Sie", "Sprichst"],
+    "correctAnswer": "Sprechen Sie",
+    "explanation": "Formal imperative: Sprechen Sie bitte langsamer!",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "multiple-choice",
+    "question": "___ leise! (sein, ihr-form)",
+    "options": ["Sei", "Seid", "Sind", "Seien Sie"],
+    "correctAnswer": "Seid",
+    "explanation": "Ihr-imperative of sein: Seid leise!",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "multiple-choice",
+    "question": "___ bitte die Tür ___! (aufmachen, du-form)",
+    "options": ["Mach...auf", "Machst...auf", "Machen...auf", "Aufmach"],
+    "correctAnswer": "Mach...auf",
+    "explanation": "Separable verb in imperative: Mach bitte die Tür auf!",
+    "difficulty": 3
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ mehr Wasser! (trinken, du-form)",
+    "options": ["Trink", "Trinkst", "Trinkt", "Trinken"],
+    "correctAnswer": "Trink",
+    "explanation": "Du-imperative of trinken: Trink mehr Wasser!",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ eure Bücher! (öffnen, ihr-form)",
+    "options": ["Öffne", "Öffnet", "Öffnen", "Öffnest"],
+    "correctAnswer": "Öffnet",
+    "explanation": "Ihr-imperative: Öffnet eure Bücher!",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ Sie bitte hier! (warten)",
+    "options": ["Warte", "Wartet", "Warten", "Wartest"],
+    "correctAnswer": "Warten",
+    "explanation": "Sie-imperative: Warten Sie bitte hier!",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ nicht so schnell! (fahren, du-form)",
+    "options": ["Fahr", "Fährst", "Fahrt", "Fahren"],
+    "correctAnswer": "Fahr",
+    "explanation": "Du-imperative of fahren: Fahr nicht so schnell! (No umlaut in imperative.)",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "sentence-order",
+    "question": "bitte / komm / her",
+    "options": ["bitte", "komm", "her"],
+    "correctAnswer": "Komm bitte her!",
+    "explanation": "Du-imperative: Komm bitte her!",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "sentence-order",
+    "question": "Sie / nehmen / bitte / Platz",
+    "options": ["Sie", "nehmen", "bitte", "Platz"],
+    "correctAnswer": "Nehmen Sie bitte Platz!",
+    "explanation": "Formal imperative: Nehmen Sie bitte Platz!",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "imperative",
+    "exerciseType": "sentence-order",
+    "question": "auf / bitte / steh / früh",
+    "options": ["auf", "bitte", "steh", "früh"],
+    "correctAnswer": "Steh bitte früh auf!",
+    "explanation": "Separable verb imperative: Steh bitte früh auf!",
+    "difficulty": 3
+  },
+
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "multiple-choice",
+    "question": "Das ist ___ Buch. (my, neuter nominative)",
+    "options": ["mein", "meine", "meinen", "meinem"],
+    "correctAnswer": "mein",
+    "explanation": "Neuter nominative: no ending on mein. Das ist mein Buch.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "multiple-choice",
+    "question": "___ Schwester wohnt in Hamburg. (my, feminine nominative)",
+    "options": ["Mein", "Meine", "Meinen", "Meiner"],
+    "correctAnswer": "Meine",
+    "explanation": "Feminine nominative: meine. Meine Schwester wohnt in Hamburg.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "multiple-choice",
+    "question": "Ich sehe ___ Bruder. (your informal, masculine accusative)",
+    "options": ["dein", "deine", "deinen", "deinem"],
+    "correctAnswer": "deinen",
+    "explanation": "Masculine accusative: deinen. Ich sehe deinen Bruder.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "multiple-choice",
+    "question": "___ Auto ist rot. (his, neuter nominative)",
+    "options": ["Sein", "Seine", "Seinen", "Seinem"],
+    "correctAnswer": "Sein",
+    "explanation": "Neuter nominative: no ending. Sein Auto ist rot.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "multiple-choice",
+    "question": "Wo ist ___ Tasche? (her, feminine nominative)",
+    "options": ["ihr", "ihre", "ihren", "ihrem"],
+    "correctAnswer": "ihre",
+    "explanation": "Feminine nominative: ihre. Wo ist ihre Tasche?",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "multiple-choice",
+    "question": "___ Kinder sind nett. (our, plural nominative)",
+    "options": ["Unser", "Unsere", "Unseren", "Unserem"],
+    "correctAnswer": "Unsere",
+    "explanation": "Plural nominative: unsere. Unsere Kinder sind nett.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "multiple-choice",
+    "question": "Wo ist ___ Lehrer? (your informal plural, masculine nominative)",
+    "options": ["euer", "eure", "euren", "eurem"],
+    "correctAnswer": "euer",
+    "explanation": "Masculine nominative: euer. Wo ist euer Lehrer?",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "multiple-choice",
+    "question": "Ich liebe ___ Familie. (my, feminine accusative)",
+    "options": ["mein", "meine", "meinen", "meinem"],
+    "correctAnswer": "meine",
+    "explanation": "Feminine accusative is the same as nominative: meine. Ich liebe meine Familie.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "fill-in-the-blank",
+    "question": "___ Eltern wohnen in München. (my, plural nominative)",
+    "options": ["Mein", "Meine", "Meinen", "Meinem"],
+    "correctAnswer": "Meine",
+    "explanation": "Plural nominative: meine. Meine Eltern wohnen in München.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Er sucht ___ Schlüssel. (his, masculine accusative)",
+    "options": ["sein", "seine", "seinen", "seinem"],
+    "correctAnswer": "seinen",
+    "explanation": "Masculine accusative: seinen. Er sucht seinen Schlüssel.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Das ist ___ Hund. (your formal, masculine nominative)",
+    "options": ["Ihr", "Ihre", "Ihren", "Ihrem"],
+    "correctAnswer": "Ihr",
+    "explanation": "Formal your, masculine nominative: Ihr. Das ist Ihr Hund.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "fill-in-the-blank",
+    "question": "Wir besuchen ___ Großeltern. (our, plural accusative)",
+    "options": ["unser", "unsere", "unseren", "unserem"],
+    "correctAnswer": "unsere",
+    "explanation": "Plural accusative: unsere. Wir besuchen unsere Großeltern.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "sentence-order",
+    "question": "mein / ist / das / Buch",
+    "options": ["mein", "ist", "das", "Buch"],
+    "correctAnswer": "Das ist mein Buch.",
+    "explanation": "Das ist + possessive + noun: Das ist mein Buch.",
+    "difficulty": 1
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "sentence-order",
+    "question": "seine Mutter / er / besucht / am Sonntag",
+    "options": ["seine Mutter", "er", "besucht", "am Sonntag"],
+    "correctAnswer": "Er besucht am Sonntag seine Mutter.",
+    "explanation": "Subject-Verb-Time-Object: Er besucht am Sonntag seine Mutter.",
+    "difficulty": 2
+  },
+  {
+    "topicSlug": "possessive-articles",
+    "exerciseType": "sentence-order",
+    "question": "in Berlin / unsere / wohnen / Freunde",
+    "options": ["in Berlin", "unsere", "wohnen", "Freunde"],
+    "correctAnswer": "Unsere Freunde wohnen in Berlin.",
+    "explanation": "Subject-Verb-Place: Unsere Freunde wohnen in Berlin.",
+    "difficulty": 2
+  }
+]

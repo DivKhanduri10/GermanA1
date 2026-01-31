@@ -1,0 +1,110 @@
+[
+  {
+    "promptType": "form-filling",
+    "scenario": "Hotel Registration Form",
+    "instructions": "You are checking into a hotel in Berlin. Fill out the registration form with your personal information:\n\n- Name (Vorname, Nachname)\n- Address (Adresse)\n- Date of Birth (Geburtsdatum)\n- Nationality (Nationalität)\n- Passport Number (Passnummer)\n- Phone Number (Telefonnummer)\n- Email (E-Mail-Adresse)\n- Arrival Date (Anreisedatum)\n- Departure Date (Abreisedatum)",
+    "wordCountMin": null,
+    "wordCountMax": null,
+    "sampleResponse": "Vorname: Max\nNachname: Müller\nAdresse: Hauptstraße 15, 80331 München\nGeburtsdatum: 12.03.1990\nNationalität: Deutsch\nPassnummer: C01X00T47\nTelefonnummer: +49 176 12345678\nE-Mail: max.mueller@email.de\nAnreisedatum: 15.06.2025\nAbreisedatum: 18.06.2025",
+    "rubric": {"criteria": ["All fields completed", "Correct date format (DD.MM.YYYY)", "Valid information provided"]}
+  },
+  {
+    "promptType": "form-filling",
+    "scenario": "Library Card Application",
+    "instructions": "You want to get a library card (Bibliotheksausweis) at the local library. Fill out the application form:\n\n- Full Name (Vollständiger Name)\n- Address (Adresse)\n- Date of Birth (Geburtsdatum)\n- Phone Number (Telefonnummer)\n- Email (E-Mail)\n- Occupation (Beruf)",
+    "wordCountMin": null,
+    "wordCountMax": null,
+    "sampleResponse": "Vollständiger Name: Anna Schmidt\nAdresse: Berliner Straße 42, 10115 Berlin\nGeburtsdatum: 25.07.1995\nTelefonnummer: 030 98765432\nE-Mail: anna.schmidt@mail.de\nBeruf: Studentin",
+    "rubric": {"criteria": ["All fields completed", "Correct format"]}
+  },
+  {
+    "promptType": "form-filling",
+    "scenario": "Doctor's Appointment Form",
+    "instructions": "You are visiting a new doctor (Arzt) for the first time. Fill out the patient registration form:\n\n- Name\n- Date of Birth (Geburtsdatum)\n- Address (Adresse)\n- Insurance Company (Krankenkasse)\n- Insurance Number (Versicherungsnummer)\n- Emergency Contact (Notfallkontakt)\n- Allergies (Allergien)\n- Current Medications (Aktuelle Medikamente)",
+    "wordCountMin": null,
+    "wordCountMax": null,
+    "sampleResponse": "Name: Thomas Weber\nGeburtsdatum: 03.11.1988\nAdresse: Gartenweg 7, 50667 Köln\nKrankenkasse: AOK\nVersicherungsnummer: A123456789\nNotfallkontakt: Maria Weber, 0221 1234567\nAllergien: keine\nAktuelle Medikamente: keine",
+    "rubric": {"criteria": ["All fields completed", "Medical information addressed"]}
+  },
+  {
+    "promptType": "form-filling",
+    "scenario": "Language Course Registration",
+    "instructions": "You want to register for a German language course (Deutschkurs). Fill out the registration form:\n\n- Name\n- Date of Birth (Geburtsdatum)\n- Country of Origin (Herkunftsland)\n- Native Language (Muttersprache)\n- Current German Level (Aktuelles Deutschniveau)\n- Course Preference: Morning/Afternoon/Evening (Kurswunsch: Morgens/Nachmittags/Abends)\n- How did you hear about us? (Wie haben Sie von uns erfahren?)",
+    "wordCountMin": null,
+    "wordCountMax": null,
+    "sampleResponse": "Name: Maria Garcia\nGeburtsdatum: 14.09.1992\nHerkunftsland: Spanien\nMuttersprache: Spanisch\nAktuelles Deutschniveau: A1\nKurswunsch: Morgens\nWie haben Sie von uns erfahren?: Internet",
+    "rubric": {"criteria": ["All fields completed", "Appropriate level selected"]}
+  },
+  {
+    "promptType": "form-filling",
+    "scenario": "Apartment Viewing Request",
+    "instructions": "You found an apartment listing and want to schedule a viewing. Fill out the contact form:\n\n- Name\n- Phone Number (Telefonnummer)\n- Email (E-Mail)\n- Current Address (Aktuelle Adresse)\n- Number of People (Personenanzahl)\n- Preferred Viewing Date (Gewünschter Besichtigungstermin)\n- Move-in Date (Einzugsdatum)",
+    "wordCountMin": null,
+    "wordCountMax": null,
+    "sampleResponse": "Name: Kenji Tanaka\nTelefonnummer: 0176 98765432\nE-Mail: kenji.t@email.de\nAktuelle Adresse: Mozartstraße 10, 60313 Frankfurt\nPersonenanzahl: 2\nGewünschter Besichtigungstermin: 20.03.2025\nEinzugsdatum: 01.05.2025",
+    "rubric": {"criteria": ["All fields completed", "Dates in correct format"]}
+  },
+  {
+    "promptType": "form-filling",
+    "scenario": "Gym Membership Form",
+    "instructions": "You want to join a fitness studio (Fitnessstudio). Fill out the membership form:\n\n- Name\n- Date of Birth (Geburtsdatum)\n- Address (Adresse)\n- Phone (Telefon)\n- Email (E-Mail)\n- Membership Type: Monthly/Yearly (Mitgliedschaft: Monatlich/Jährlich)\n- Start Date (Startdatum)",
+    "wordCountMin": null,
+    "wordCountMax": null,
+    "sampleResponse": "Name: Lisa Braun\nGeburtsdatum: 22.01.1997\nAdresse: Schillerplatz 3, 70173 Stuttgart\nTelefon: 0711 5678901\nE-Mail: lisa.braun@web.de\nMitgliedschaft: Monatlich\nStartdatum: 01.02.2025",
+    "rubric": {"criteria": ["All fields completed", "Valid membership type selected"]}
+  },
+  {
+    "promptType": "message",
+    "scenario": "Reply to a Party Invitation",
+    "instructions": "Your friend Marco has invited you to his birthday party on Saturday at 7 PM. Write a short message to Marco:\n\n- Thank him for the invitation\n- Say that you are coming\n- Ask what you should bring\n- Ask for the address",
+    "wordCountMin": 30,
+    "wordCountMax": 50,
+    "sampleResponse": "Lieber Marco,\nvielen Dank für die Einladung zu deiner Geburtstagsfeier! Ich komme sehr gern am Samstag um 19 Uhr. Soll ich etwas mitbringen? Kannst du mir bitte die Adresse schicken?\nViele Grüße,\nAnna",
+    "rubric": {"criteria": ["Thanks for invitation", "Confirms attendance", "Asks what to bring", "Asks for address", "Appropriate greeting and closing"]}
+  },
+  {
+    "promptType": "message",
+    "scenario": "Cancel a Dinner Reservation",
+    "instructions": "You made a restaurant reservation for Friday evening but you are now sick. Write a message to the restaurant:\n\n- Say your name and the date of the reservation\n- Explain that you are sick\n- Cancel the reservation\n- Apologize for the inconvenience",
+    "wordCountMin": 30,
+    "wordCountMax": 50,
+    "sampleResponse": "Sehr geehrte Damen und Herren,\nmein Name ist Thomas Weber. Ich habe eine Reservierung für Freitagabend. Leider bin ich krank und muss die Reservierung absagen. Ich bitte um Entschuldigung für die Unannehmlichkeiten.\nMit freundlichen Grüßen,\nThomas Weber",
+    "rubric": {"criteria": ["States name and reservation date", "Explains reason (sick)", "Cancels reservation", "Apologizes", "Formal tone"]}
+  },
+  {
+    "promptType": "message",
+    "scenario": "Ask About a Lost Item",
+    "instructions": "You left your umbrella (Regenschirm) in a café yesterday. Write a message to the café:\n\n- Say when you were there (yesterday afternoon)\n- Describe the item (black umbrella)\n- Ask if they found it\n- Give your phone number for contact",
+    "wordCountMin": 30,
+    "wordCountMax": 50,
+    "sampleResponse": "Hallo,\nich war gestern Nachmittag in Ihrem Café. Ich habe meinen schwarzen Regenschirm vergessen. Haben Sie ihn vielleicht gefunden? Sie können mich unter 0176 12345678 erreichen.\nVielen Dank!\nSarah Müller",
+    "rubric": {"criteria": ["States when they visited", "Describes the item", "Asks if found", "Provides contact info"]}
+  },
+  {
+    "promptType": "email",
+    "scenario": "Request Information About a Course",
+    "instructions": "You want to take a cooking course (Kochkurs) at the community center (Volkshochschule). Write an email:\n\n- Ask about available cooking courses\n- Ask about the schedule and price\n- Ask if beginners can join\n- Say when you are available (evenings)",
+    "wordCountMin": 30,
+    "wordCountMax": 50,
+    "sampleResponse": "Betreff: Frage zum Kochkurs\n\nSehr geehrte Damen und Herren,\nich interessiere mich für einen Kochkurs an der Volkshochschule. Können Sie mir bitte Informationen über den Kursplan und die Preise geben? Können auch Anfänger teilnehmen? Ich bin abends verfügbar.\nMit freundlichen Grüßen,\nPeter Klein",
+    "rubric": {"criteria": ["Asks about courses", "Asks schedule and price", "Asks about beginner level", "States availability", "Formal email format"]}
+  },
+  {
+    "promptType": "email",
+    "scenario": "Complain About a Product",
+    "instructions": "You ordered a book online but received the wrong book. Write an email to the shop:\n\n- Give your order number (Bestellnummer: 78456)\n- Explain the problem\n- Say which book you ordered and which you received\n- Ask for the correct book or a refund",
+    "wordCountMin": 30,
+    "wordCountMax": 50,
+    "sampleResponse": "Betreff: Problem mit Bestellung Nr. 78456\n\nSehr geehrte Damen und Herren,\nich habe ein Problem mit meiner Bestellung Nr. 78456. Ich habe das Buch \"Deutsch lernen A1\" bestellt, aber ich habe \"Deutsch lernen B2\" bekommen. Können Sie mir bitte das richtige Buch schicken oder das Geld zurückgeben?\nMit freundlichen Grüßen,\nLena Fischer",
+    "rubric": {"criteria": ["States order number", "Explains problem clearly", "Specifies what was ordered vs received", "Requests solution", "Formal email format"]}
+  },
+  {
+    "promptType": "email",
+    "scenario": "Arrange a Meeting with a Friend",
+    "instructions": "You want to meet your friend Julia in the city center this weekend. Write an email:\n\n- Suggest meeting on Saturday\n- Propose a place (e.g., a café)\n- Suggest a time\n- Ask if that works for her",
+    "wordCountMin": 30,
+    "wordCountMax": 50,
+    "sampleResponse": "Betreff: Treffen am Wochenende?\n\nLiebe Julia,\nhast du am Samstag Zeit? Wir können uns im Café am Marktplatz treffen. Passt dir 14 Uhr? Wir können zusammen Kaffee trinken und uns unterhalten. Sag mir bitte Bescheid!\nLiebe Grüße,\nSophie",
+    "rubric": {"criteria": ["Suggests day", "Proposes meeting place", "Suggests time", "Asks for confirmation", "Friendly tone"]}
+  }
+]

@@ -1,0 +1,151 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Vocabulary {
+  id               Int       @id @default(autoincrement())
+  word             String
+  article          String?
+  plural           String?
+  translation      String
+  exampleSentence  String?
+  category         String
+  ipaPronunciation String?
+  difficultyLevel  Int       @default(1)
+  createdAt        DateTime  @default(now())
+
+  @@index([category])
+}
+
+model GrammarTopic {
+  id              Int               @id @default(autoincrement())
+  topicName       String
+  topicSlug       String            @unique
+  description     String?
+  difficultyOrder Int
+  contentMarkdown String
+  createdAt       DateTime          @default(now())
+  exercises       GrammarExercise[]
+}
+
+model GrammarExercise {
+  id            Int          @id @default(autoincrement())
+  topicId       Int
+  topic         GrammarTopic @relation(fields: [topicId], references: [id])
+  exerciseType  String
+  question      String
+  options       Json?
+  correctAnswer String
+  explanation   String?
+  difficulty    Int          @default(1)
+
+  @@index([topicId])
+}
+
+model ListeningExercise {
+  id            Int      @id @default(autoincrement())
+  partNumber    Int
+  transcript    String
+  question      String
+  questionType  String
+  options       Json
+  correctAnswer String
+  setId         Int
+  createdAt     DateTime @default(now())
+
+  @@index([partNumber])
+  @@index([setId])
+}
+
+model ReadingExercise {
+  id            Int      @id @default(autoincrement())
+  partNumber    Int
+  textContent   String
+  question      String
+  questionType  String
+  options       Json
+  correctAnswer String
+  explanation   String?
+  setId         Int
+  createdAt     DateTime @default(now())
+
+  @@index([partNumber])
+  @@index([setId])
+}
+
+model WritingPrompt {
+  id             Int      @id @default(autoincrement())
+  promptType     String
+  scenario       String
+  instructions   String
+  wordCountMin   Int?
+  wordCountMax   Int?
+  sampleResponse String?
+  rubric         Json?
+  createdAt      DateTime @default(now())
+}
+
+model SpeakingPrompt {
+  id             Int      @id @default(autoincrement())
+  partNumber     Int
+  category       String?
+  prompt         String
+  sampleResponse String?
+  keyPhrases     Json?
+  createdAt      DateTime @default(now())
+
+  @@index([partNumber])
+}
+
+model UserProgress {
+  id             Int       @id @default(autoincrement())
+  sessionId      String
+  progressType   String
+  itemId         Int
+  status         String    @default("learning")
+  correctCount   Int       @default(0)
+  incorrectCount Int       @default(0)
+  lastReviewed   DateTime?
+  nextReview     DateTime?
+  easeFactor     Float     @default(2.5)
+  interval       Int       @default(0)
+  repetitions    Int       @default(0)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@unique([sessionId, progressType, itemId])
+  @@index([sessionId])
+  @@index([sessionId, progressType])
+  @@index([nextReview])
+}
+
+model StudySession {
+  id              Int       @id @default(autoincrement())
+  sessionId       String
+  module          String
+  durationSeconds Int?
+  itemsPracticed  Int?
+  score           Float?
+  startedAt       DateTime  @default(now())
+  endedAt         DateTime?
+
+  @@index([sessionId])
+  @@index([sessionId, module])
+}
+
+model WritingSubmission {
+  id          Int      @id @default(autoincrement())
+  sessionId   String
+  promptId    Int
+  content     String
+  evaluation  Json?
+  score       Float?
+  submittedAt DateTime @default(now())
+
+  @@index([sessionId])
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "topicName": "Present Tense (Präsens)",
+    "topicSlug": "present-tense",
+    "description": "Learn how to conjugate regular verbs in the present tense in German.",
+    "difficultyOrder": 1,
+    "contentMarkdown": "## Present Tense (Präsens)\n\nThe present tense is the most important tense in German. Most regular verbs follow a predictable pattern: remove the **-en** ending and add the correct ending.\n\n### Conjugation Pattern\n\n| Pronoun | Ending | Example: spielen |\n|---------|--------|------------------|\n| ich | -e | spiele |\n| du | -st | spielst |\n| er/sie/es | -t | spielt |\n| wir | -en | spielen |\n| ihr | -t | spielt |\n| sie/Sie | -en | spielen |\n\n### Examples\n\n- Ich **lerne** Deutsch. (I learn German.)\n- Du **wohnst** in Berlin. (You live in Berlin.)\n- Er **arbeitet** in München. (He works in Munich.)\n\n### Stem Changes\n\nSome verbs have stem changes with **du** and **er/sie/es**:\n\n| Verb | du | er/sie/es |\n|------|----|-----------|\n| sprechen | sprichst | spricht |\n| lesen | liest | liest |\n| fahren | fährst | fährt |\n\n### Important Notes\n\n- Verbs with stems ending in **-t** or **-d** add an extra **e**: du arbeit**e**st, er arbeit**e**t.\n- The present tense can also express future actions: Morgen **gehe** ich ins Kino."
+  },
+  {
+    "topicName": "Sein & Haben",
+    "topicSlug": "sein-haben",
+    "description": "Master the two most essential German verbs: sein (to be) and haben (to have).",
+    "difficultyOrder": 2,
+    "contentMarkdown": "## Sein & Haben\n\n**Sein** (to be) and **haben** (to have) are the two most important verbs in German. They are irregular and must be memorized.\n\n### Sein (to be)\n\n| Pronoun | Form |\n|---------|------|\n| ich | bin |\n| du | bist |\n| er/sie/es | ist |\n| wir | sind |\n| ihr | seid |\n| sie/Sie | sind |\n\n### Haben (to have)\n\n| Pronoun | Form |\n|---------|------|\n| ich | habe |\n| du | hast |\n| er/sie/es | hat |\n| wir | haben |\n| ihr | habt |\n| sie/Sie | haben |\n\n### Common Uses of Sein\n\n- Identity: Ich **bin** Lehrer. (I am a teacher.)\n- Origin: Sie **ist** aus Spanien. (She is from Spain.)\n- Feelings: Wir **sind** müde. (We are tired.)\n\n### Common Uses of Haben\n\n- Possession: Ich **habe** ein Auto. (I have a car.)\n- Age: Er **hat** 25 Jahre. (He is 25 years old.)\n- Hunger/Thirst: Wir **haben** Hunger. (We are hungry.)\n\n### Tip\n\nIn German, you use **haben** for age, hunger, and thirst — unlike English which uses \"to be.\""
+  },
+  {
+    "topicName": "Articles (Artikel)",
+    "topicSlug": "articles",
+    "description": "Understand definite and indefinite articles and grammatical gender in German.",
+    "difficultyOrder": 3,
+    "contentMarkdown": "## Articles (Artikel)\n\nEvery German noun has a grammatical gender: **masculine (der)**, **feminine (die)**, or **neuter (das)**. You must learn the article with each noun.\n\n### Definite Articles (the)\n\n| Gender | Article | Example |\n|--------|---------|---------|\n| Masculine | der | der Mann (the man) |\n| Feminine | die | die Frau (the woman) |\n| Neuter | das | das Kind (the child) |\n| Plural | die | die Kinder (the children) |\n\n### Indefinite Articles (a/an)\n\n| Gender | Article | Example |\n|--------|---------|---------|\n| Masculine | ein | ein Tisch (a table) |\n| Feminine | eine | eine Lampe (a lamp) |\n| Neuter | ein | ein Buch (a book) |\n\n### Gender Hints\n\nSome patterns can help:\n\n- **Masculine**: days, months, seasons — der Montag, der Januar, der Sommer\n- **Feminine**: many nouns ending in **-e**, **-ung**, **-heit**, **-keit** — die Lampe, die Zeitung\n- **Neuter**: nouns ending in **-chen**, **-lein** — das Mädchen, das Brötchen\n\n### Examples\n\n- **Der** Hund ist groß. (The dog is big.)\n- Ich habe **eine** Katze. (I have a cat.)\n- **Das** Haus ist klein. (The house is small.)\n\n### Tip\n\nAlways learn nouns with their article: not just \"Tisch\" but **der Tisch**."
+  },
+  {
+    "topicName": "Plural Forms (Pluralformen)",
+    "topicSlug": "plural-forms",
+    "description": "Learn the different ways German nouns form their plurals.",
+    "difficultyOrder": 4,
+    "contentMarkdown": "## Plural Forms (Pluralformen)\n\nGerman has several ways to form plurals. Unlike English, there is no single rule. The definite article for all plurals is **die**.\n\n### Common Plural Patterns\n\n| Pattern | Singular | Plural | Rule |\n|---------|----------|--------|------|\n| -e | der Tisch | die Tische | Add -e |\n| -n/-en | die Lampe | die Lampen | Add -n or -en |\n| -er | das Kind | die Kinder | Add -er |\n| ¨-e | der Stuhl | die Stühle | Umlaut + -e |\n| -s | das Auto | die Autos | Add -s |\n| — | der Lehrer | die Lehrer | No change |\n| ¨ | die Mutter | die Mütter | Umlaut only |\n\n### Tips for Remembering\n\n- **Feminine nouns** ending in **-e** usually add **-n**: die Blume → die Blumen\n- **Neuter nouns** ending in **-chen** or **-lein** stay the same: das Mädchen → die Mädchen\n- **Foreign words** often add **-s**: das Hotel → die Hotels\n\n### Examples\n\n- der Apfel → die Äpfel\n- die Frau → die Frauen\n- das Haus → die Häuser\n- der Computer → die Computer\n\n### Important\n\nAlways learn the plural form when you learn a new noun. Dictionaries show it like this: der Tisch, -e."
+  },
+  {
+    "topicName": "Personal Pronouns (Personalpronomen)",
+    "topicSlug": "personal-pronouns",
+    "description": "Learn all German personal pronouns and when to use formal vs. informal address.",
+    "difficultyOrder": 5,
+    "contentMarkdown": "## Personal Pronouns (Personalpronomen)\n\nGerman personal pronouns indicate who is speaking, being spoken to, or being spoken about.\n\n### Nominative Pronouns (Subject)\n\n| German | English | Usage |\n|--------|---------|-------|\n| ich | I | first person singular |\n| du | you (informal) | one friend, family |\n| er | he | masculine nouns |\n| sie | she | feminine nouns |\n| es | it | neuter nouns |\n| wir | we | first person plural |\n| ihr | you all (informal) | group of friends |\n| sie | they | third person plural |\n| Sie | you (formal) | polite, always capitalized |\n\n### Du vs. Sie\n\nGerman distinguishes between formal and informal address:\n\n- **Du**: Use with friends, family, children, and among young people.\n- **Sie**: Use with strangers, in professional settings, and with older people you do not know well.\n\n### Examples\n\n- **Ich** komme aus Deutschland. (I come from Germany.)\n- **Du** sprichst gut Deutsch. (You speak good German.)\n- **Er** ist mein Bruder. (He is my brother.)\n- **Wir** lernen zusammen. (We learn together.)\n- **Sie** sind sehr nett. (You are very nice. — formal)\n\n### Tip\n\n**Sie** (formal you) is always capitalized, even in the middle of a sentence. **sie** (she/they) is lowercase unless it starts a sentence."
+  },
+  {
+    "topicName": "Negation (Verneinung)",
+    "topicSlug": "negation",
+    "description": "Learn how to make negative sentences using nicht and kein in German.",
+    "difficultyOrder": 6,
+    "contentMarkdown": "## Negation (Verneinung)\n\nGerman uses two main words for negation: **nicht** (not) and **kein** (no/not a).\n\n### Kein vs. Nicht\n\n| Use | Word | Example |\n|-----|------|---------|\n| Before nouns with ein/eine | kein | Ich habe **kein** Auto. |\n| Before nouns without article | kein | Ich habe **keine** Zeit. |\n| For verbs, adjectives, adverbs | nicht | Ich komme **nicht**. |\n\n### Kein — Declension\n\n| Gender | Nominative | Accusative |\n|--------|-----------|------------|\n| Masculine | kein | keinen |\n| Feminine | keine | keine |\n| Neuter | kein | kein |\n| Plural | keine | keine |\n\n### Position of Nicht\n\n**Nicht** usually goes:\n- At the **end** of the sentence: Ich verstehe das **nicht**.\n- **Before** adjectives: Das ist **nicht** gut.\n- **Before** prepositional phrases: Ich gehe **nicht** ins Kino.\n\n### Examples\n\n- Das ist **kein** Problem. (That is not a problem.)\n- Ich spreche **nicht** Französisch. (I do not speak French.)\n- Er hat **keine** Kinder. (He has no children.)\n- Wir kommen heute **nicht**. (We are not coming today.)\n\n### Tip\n\nUse **kein** when you would use \"ein\" in the positive sentence. Use **nicht** for everything else."
+  },
+  {
+    "topicName": "Word Order (Wortstellung)",
+    "topicSlug": "word-order",
+    "description": "Understand the rules for German sentence structure and verb position.",
+    "difficultyOrder": 7,
+    "contentMarkdown": "## Word Order (Wortstellung)\n\nGerman word order follows clear rules. The most important rule: the conjugated verb is always in **second position** in a statement.\n\n### Basic Word Order: Subject-Verb-Object\n\n| Position 1 | Position 2 (Verb) | Rest |\n|-----------|-------------------|------|\n| Ich | lerne | Deutsch. |\n| Maria | wohnt | in Berlin. |\n| Wir | spielen | Fußball. |\n\n### Inversion: Time/Place First\n\nWhen something other than the subject starts the sentence, the **subject and verb swap**:\n\n| Position 1 | Position 2 (Verb) | Subject | Rest |\n|-----------|-------------------|---------|------|\n| Heute | lerne | ich | Deutsch. |\n| In Berlin | wohnt | Maria | . |\n| Am Montag | spielen | wir | Fußball. |\n\n### Time-Manner-Place Rule\n\nWhen a sentence has multiple details, the order is **Time → Manner → Place**:\n\n- Ich fahre **morgen** (time) **mit dem Bus** (manner) **nach Hamburg** (place).\n\n### Examples\n\n- **Morgens** trinke ich Kaffee. (In the morning I drink coffee.)\n- **Gern** spielt er Tennis. (He likes to play tennis.)\n\n### Important\n\nThe verb is **always** in position 2. This is the golden rule of German word order. Everything else can move, but the verb stays in place."
+  },
+  {
+    "topicName": "Accusative Case (Akkusativ)",
+    "topicSlug": "accusative-case",
+    "description": "Learn the accusative case for direct objects and how articles change.",
+    "difficultyOrder": 8,
+    "contentMarkdown": "## Accusative Case (Akkusativ)\n\nThe accusative case marks the **direct object** — the thing or person receiving the action.\n\n### Articles in the Accusative\n\n| Gender | Nominative | Accusative |\n|--------|-----------|------------|\n| Masculine | der / ein | **den / einen** |\n| Feminine | die / eine | die / eine |\n| Neuter | das / ein | das / ein |\n| Plural | die | die |\n\n**Only masculine articles change** in the accusative!\n\n### Examples\n\n- Ich sehe **den** Mann. (I see the man.) — masculine changes\n- Ich sehe **die** Frau. (I see the woman.) — no change\n- Ich sehe **das** Kind. (I see the child.) — no change\n\n### Common Accusative Verbs\n\nThese verbs always take a direct object (accusative):\n\n| Verb | Meaning | Example |\n|------|---------|--------|\n| haben | to have | Ich habe **einen** Hund. |\n| kaufen | to buy | Er kauft **den** Kuchen. |\n| trinken | to drink | Sie trinkt **einen** Kaffee. |\n| essen | to eat | Wir essen **eine** Pizza. |\n| sehen | to see | Ich sehe **den** Film. |\n\n### Personal Pronouns in Accusative\n\n| Nominative | Accusative |\n|-----------|------------|\n| ich | mich |\n| du | dich |\n| er | ihn |\n| sie | sie |\n| es | es |\n| wir | uns |\n| ihr | euch |\n| sie/Sie | sie/Sie |\n\n### Tip\n\nAsk **wen?** (whom?) or **was?** (what?) to find the accusative object."
+  },
+  {
+    "topicName": "Yes/No Questions (Ja/Nein-Fragen)",
+    "topicSlug": "yes-no-questions",
+    "description": "Learn how to form questions that can be answered with yes or no in German.",
+    "difficultyOrder": 9,
+    "contentMarkdown": "## Yes/No Questions (Ja/Nein-Fragen)\n\nYes/No questions in German are formed by placing the **verb first** in the sentence.\n\n### Structure\n\n| Verb | Subject | Rest |\n|------|---------|------|\n| Sprichst | du | Deutsch? |\n| Wohnt | er | in Berlin? |\n| Haben | Sie | Kinder? |\n\n### Compared to Statements\n\n| Statement | Question |\n|-----------|----------|\n| Du sprichst Deutsch. | **Sprichst** du Deutsch? |\n| Er wohnt in Berlin. | **Wohnt** er in Berlin? |\n| Sie haben Zeit. | **Haben** Sie Zeit? |\n\nSimply move the verb to the **beginning**!\n\n### Answering\n\n- **Ja**, ich spreche Deutsch. (Yes, I speak German.)\n- **Nein**, ich spreche kein Deutsch. (No, I don't speak German.)\n- **Doch!** — used to contradict a negative question:\n  - Sprichst du **nicht** Deutsch? — **Doch**, ich spreche Deutsch!\n\n### Examples\n\n- **Kommst** du morgen? — Ja, ich komme morgen.\n- **Ist** das dein Buch? — Nein, das ist nicht mein Buch.\n- **Spielen** die Kinder draußen? — Ja, sie spielen draußen.\n- **Hast** du Hunger? — Ja, ich habe Hunger.\n\n### Tip\n\nUse **doch** when someone asks a negative question and you want to say \"yes, actually!\""
+  },
+  {
+    "topicName": "W-Questions (W-Fragen)",
+    "topicSlug": "w-questions",
+    "description": "Learn how to ask information questions using German question words.",
+    "difficultyOrder": 10,
+    "contentMarkdown": "## W-Questions (W-Fragen)\n\nW-questions ask for specific information. They start with a **question word** (W-Wort), followed by the **verb** in second position.\n\n### Common Question Words\n\n| W-Wort | Meaning | Example |\n|--------|---------|--------|\n| wer | who | **Wer** ist das? |\n| was | what | **Was** machst du? |\n| wo | where | **Wo** wohnst du? |\n| woher | where from | **Woher** kommst du? |\n| wohin | where to | **Wohin** gehst du? |\n| wann | when | **Wann** kommst du? |\n| wie | how | **Wie** heißt du? |\n| warum | why | **Warum** lernst du Deutsch? |\n| wie viel(e) | how much/many | **Wie viele** Kinder hast du? |\n\n### Structure\n\n| W-Wort | Verb | Subject | Rest |\n|--------|------|---------|------|\n| Wo | wohnst | du | ? |\n| Was | trinkt | er | gern? |\n| Wann | fährt | der Zug | ? |\n\n### Examples\n\n- **Wie** heißen Sie? — Ich heiße Anna.\n- **Wo** ist die Schule? — Die Schule ist dort.\n- **Woher** kommen Sie? — Ich komme aus Frankreich.\n- **Was** kostet das? — Das kostet fünf Euro.\n\n### Tip\n\nThe verb is always in **position 2**, just like in statements. The W-word takes position 1."
+  },
+  {
+    "topicName": "Modal Verbs (Modalverben)",
+    "topicSlug": "modal-verbs",
+    "description": "Learn the six German modal verbs and how to use them in sentences.",
+    "difficultyOrder": 11,
+    "contentMarkdown": "## Modal Verbs (Modalverben)\n\nGerman has six modal verbs. They express ability, permission, obligation, or desire. The main verb goes to the **end** in its infinitive form.\n\n### The Six Modal Verbs\n\n| Verb | Meaning |\n|------|---------|\n| können | can, to be able to |\n| müssen | must, to have to |\n| wollen | to want to |\n| sollen | should, to be supposed to |\n| dürfen | may, to be allowed to |\n| möchten | would like to |\n\n### Conjugation\n\n| Pronoun | können | müssen | wollen | dürfen | möchten |\n|---------|--------|--------|--------|--------|--------|\n| ich | kann | muss | will | darf | möchte |\n| du | kannst | musst | willst | darfst | möchtest |\n| er/sie/es | kann | muss | will | darf | möchte |\n| wir | können | müssen | wollen | dürfen | möchten |\n| ihr | könnt | müsst | wollt | dürft | möchtet |\n| sie/Sie | können | müssen | wollen | dürfen | möchten |\n\n### Sentence Structure\n\nModal verb in **position 2**, infinitive at the **end**:\n\n- Ich **kann** gut Deutsch **sprechen**.\n- Du **musst** morgen früh **aufstehen**.\n- Wir **möchten** eine Pizza **bestellen**.\n\n### Tip\n\nModal verbs have no ending for **ich** and **er/sie/es**: ich kann, er muss, sie will."
+  },
+  {
+    "topicName": "Separable Verbs (Trennbare Verben)",
+    "topicSlug": "separable-verbs",
+    "description": "Understand how separable prefix verbs work in German sentences.",
+    "difficultyOrder": 12,
+    "contentMarkdown": "## Separable Verbs (Trennbare Verben)\n\nMany German verbs have a **prefix** that separates from the verb in the present tense. The prefix goes to the **end** of the sentence.\n\n### Common Separable Prefixes\n\n| Prefix | Example Verb | Meaning |\n|--------|--------------|---------|\n| an | anrufen | to call (phone) |\n| auf | aufstehen | to get up |\n| aus | ausgehen | to go out |\n| ein | einkaufen | to shop |\n| mit | mitkommen | to come along |\n| zu | zumachen | to close |\n| ab | abfahren | to depart |\n| fern | fernsehen | to watch TV |\n\n### How They Work\n\n| Infinitive | Present Tense |\n|-----------|---------------|\n| aufstehen | Ich **stehe** um 7 Uhr **auf**. |\n| anrufen | Er **ruft** seine Mutter **an**. |\n| einkaufen | Wir **kaufen** im Supermarkt **ein**. |\n| fernsehen | Die Kinder **sehen** abends **fern**. |\n\n### With Modal Verbs\n\nWhen used with a modal verb, the separable verb stays together as an infinitive at the end:\n\n- Ich **muss** morgen früh **aufstehen**.\n- Wir **wollen** heute Abend **ausgehen**.\n\n### Examples\n\n- Der Zug **fährt** um 8 Uhr **ab**. (The train departs at 8.)\n- **Kommst** du morgen **mit**? (Are you coming along tomorrow?)\n\n### Tip\n\nThe prefix is always **stressed** when spoken: **AUF**stehen, **AN**rufen, **EIN**kaufen."
+  },
+  {
+    "topicName": "Imperative (Imperativ)",
+    "topicSlug": "imperative",
+    "description": "Learn how to give commands, instructions, and requests in German.",
+    "difficultyOrder": 13,
+    "contentMarkdown": "## Imperative (Imperativ)\n\nThe imperative is used for commands, requests, and instructions. German has three imperative forms: **du**, **ihr**, and **Sie**.\n\n### Formation\n\n| Form | Rule | Example: kommen |\n|------|------|-----------------|\n| du | verb stem (+ e) | Komm! |\n| ihr | verb stem + t | Kommt! |\n| Sie | infinitive + Sie | Kommen Sie! |\n\n### Examples with Different Verbs\n\n| Verb | du | ihr | Sie |\n|------|-----|------|------|\n| machen | Mach! | Macht! | Machen Sie! |\n| schreiben | Schreib! | Schreibt! | Schreiben Sie! |\n| lesen | Lies! | Lest! | Lesen Sie! |\n| sprechen | Sprich! | Sprecht! | Sprechen Sie! |\n| geben | Gib! | Gebt! | Geben Sie! |\n\n### Special: Sein\n\n| du | ihr | Sie |\n|----|------|------|\n| Sei ruhig! | Seid ruhig! | Seien Sie ruhig! |\n\n### Separable Verbs in Imperative\n\nThe prefix goes to the end:\n- **Steh** bitte **auf**! (Please get up!)\n- **Machen** Sie die Tür **zu**! (Close the door!)\n\n### Examples\n\n- **Trink** mehr Wasser! (Drink more water!)\n- **Öffnet** eure Bücher! (Open your books!)\n- **Sprechen** Sie bitte langsamer! (Please speak more slowly!)\n\n### Tip\n\nAdd **bitte** to make commands more polite: Komm bitte! Kommen Sie bitte!"
+  },
+  {
+    "topicName": "Possessive Articles (Possessivartikel)",
+    "topicSlug": "possessive-articles",
+    "description": "Learn how to express ownership using possessive articles in German.",
+    "difficultyOrder": 14,
+    "contentMarkdown": "## Possessive Articles (Possessivartikel)\n\nPossessive articles show ownership. They follow the same endings as **ein/kein**.\n\n### Possessive Articles by Person\n\n| Pronoun | Possessive | English |\n|---------|-----------|--------|\n| ich | mein | my |\n| du | dein | your (informal) |\n| er | sein | his |\n| sie | ihr | her |\n| es | sein | its |\n| wir | unser | our |\n| ihr | euer | your (informal pl.) |\n| sie/Sie | ihr/Ihr | their/your (formal) |\n\n### Endings (Nominative)\n\n| Gender | Ending | Example (mein) |\n|--------|--------|----------------|\n| Masculine | — | mein Bruder |\n| Feminine | -e | meine Schwester |\n| Neuter | — | mein Kind |\n| Plural | -e | meine Eltern |\n\n### Endings (Accusative)\n\n| Gender | Ending | Example (mein) |\n|--------|--------|----------------|\n| Masculine | -en | meinen Bruder |\n| Feminine | -e | meine Schwester |\n| Neuter | — | mein Kind |\n| Plural | -e | meine Eltern |\n\n### Examples\n\n- Das ist **mein** Vater. (That is my father.)\n- Ich liebe **meine** Familie. (I love my family.)\n- **Sein** Auto ist rot. (His car is red.)\n- Wo ist **euer** Lehrer? (Where is your teacher?)\n\n### Note on Euer\n\nWhen **euer** gets an ending, the inner **e** drops: eure (not euere), euren (not eueren)."
+  }
+]
