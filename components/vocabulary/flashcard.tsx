@@ -10,6 +10,7 @@ interface VocabWord {
   plural: string | null;
   translation: string;
   exampleSentence: string | null;
+  exampleTranslation: string | null;
   category: string;
 }
 
@@ -94,9 +95,16 @@ export function Flashcard({ word, mode, showExample }: FlashcardProps) {
             <p className="text-sm text-muted-foreground mt-2">{pluralText}</p>
           )}
           {showExample && word.exampleSentence && (
-            <p className="text-sm text-muted-foreground mt-4 italic text-center max-w-xs">
-              &quot;{word.exampleSentence}&quot;
-            </p>
+            <div className="mt-4 text-center max-w-xs space-y-1">
+              <p className="text-sm text-muted-foreground italic">
+                &quot;{word.exampleSentence}&quot;
+              </p>
+              {word.exampleTranslation && (
+                <p className="text-xs text-muted-foreground/70">
+                  &quot;{word.exampleTranslation}&quot;
+                </p>
+              )}
+            </div>
           )}
           <p className="text-xs text-muted-foreground mt-6 absolute bottom-4">
             Tap to flip back
