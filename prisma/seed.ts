@@ -15,6 +15,7 @@ interface VocabEntry {
   plural: string | null;
   translation: string;
   exampleSentence: string | null;
+  exampleTranslation: string | null;
   category: string;
   ipaPronunciation: string | null;
   difficultyLevel: number;
@@ -44,6 +45,7 @@ async function seedVocabulary() {
         plural: entry.plural,
         translation: entry.translation,
         exampleSentence: entry.exampleSentence,
+        exampleTranslation: entry.exampleTranslation,
         category: entry.category,
         ipaPronunciation: entry.ipaPronunciation,
         difficultyLevel: entry.difficultyLevel,

@@ -13,8 +13,9 @@ model Vocabulary {
   article          String?
   plural           String?
   translation      String
-  exampleSentence  String?
-  category         String
+  exampleSentence      String?
+  exampleTranslation   String?
+  category             String
   ipaPronunciation String?
   difficultyLevel  Int       @default(1)
   createdAt        DateTime  @default(now())

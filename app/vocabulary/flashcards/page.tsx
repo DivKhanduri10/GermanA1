@@ -30,6 +30,7 @@ interface VocabWord {
   plural: string | null;
   translation: string;
   exampleSentence: string | null;
+  exampleTranslation: string | null;
   category: string;
 }
 
